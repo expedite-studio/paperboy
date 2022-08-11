@@ -2161,3 +2161,1336 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.08.11-06.00.49:043][107]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Utilities/Bullet_BP]
 [2022.08.11-06.00.49:086][107]LogSavePackage: Moving 'F:/Office/Expedite Design/Projects/PaperBoy/paperboy/Saved/Bullet_BP_Auto2815AAA6D4DC68B5BF6A8C49DB6C9663E.tmp' to 'F:/Office/Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Utilities/Bullet_BP_Auto2.uasset'
 [2022.08.11-06.00.49:087][107]LogFileHelpers: Auto-saving content packages took 0.056
+[2022.08.11-06.07.38:585][667]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.08.11-06.07.38:641][667]LogContentBrowser: Creating deferred item: NewFolder
+[2022.08.11-06.07.47:311][704]LogContentBrowser: Attempting asset rename: NewFolder -> CharacterandBike
+[2022.08.11-06.07.47:312][704]LogContentBrowser: End creating deferred item NewFolder
+[2022.08.11-06.08.05:948][372]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\both\Bfrw.fbx)
+[2022.08.11-06.08.05:993][372]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\both\Bfrw.fbx
+[2022.08.11-06.08.06:322][372]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.08.15:102][372]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.08.11-06.08.15:129][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.08.15:129][372]LogFbx: Valid bind pose for Pose (Bike_Mesh) - paperBoyJoined
+[2022.08.11-06.08.15:139][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body.Ch42_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.15:140][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 39E24B772138FE5B3D26246E940E8BDCBDCD5186), compiling. 
+[2022.08.11-06.08.15:696][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.15:704][372]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2022.08.11-06.08.15:704][372]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2022.08.11-06.08.15:704][372]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.08.11-06.08.15:704][372]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.08.11-06.08.15:704][372]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.08.11-06.08.15:706][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\file2.png
+[2022.08.11-06.08.15:706][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.08.15:707][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 8F68F0E14715558862DAC4497477DA3C35BEA000), compiling. 
+[2022.08.11-06.08.15:710][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair.Ch42_Hair needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.15:714][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair in PCD3D_SM5, Default, SM5 (DDC key hash: 10E99F08A9CA70DB3712F70F3B77A248F0C3DCDB), compiling. 
+[2022.08.11-06.08.15:740][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.15:741][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.08.15:741][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.08.15:743][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair in PCD3D_SM5, Default, SM5 (DDC key hash: 9B8E8E0D297A72ADBA827E5AF66F0971AA2E7A6D), compiling. 
+[2022.08.11-06.08.15:822][372]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.08.17:456][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.08.17:456][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.08.17:508][372]LogSkeletalMesh: Building Skeletal Mesh Bfrw_paperBoyJoined...
+[2022.08.11-06.08.19:085][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.08.19:085][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.08.19:269][372]LogSkeletalMesh: Built Skeletal Mesh [1.76s] /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_paperBoyJoined
+[2022.08.11-06.08.19:323][372]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.08.19:324][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.08.19:416][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined) - Node Bike_Mesh : The relative matrices do not match
+[2022.08.11-06.08.19:416][372]LogFbx: Valid bind pose for Pose (Bike_Mesh) - Bike_Mesh
+[2022.08.11-06.08.19:484][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chrome.Bike_Chrome needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:485][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome in PCD3D_SM5, Default, SM5 (DDC key hash: F2EFACA4BFFA1D8D74045548EA4FBC1EA071ED45), compiling. 
+[2022.08.11-06.08.19:519][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:541][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Chrome_BaseColor.png
+[2022.08.11-06.08.19:542][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Chrome_Normal.png
+[2022.08.11-06.08.19:545][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome in PCD3D_SM5, Default, SM5 (DDC key hash: 2DCA6664E4A20D7E0D3FCE534FAB4FB952549287), compiling. 
+[2022.08.11-06.08.19:549][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Tire_Rubber.Bike_Tire_Rubber needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:553][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber in PCD3D_SM5, Default, SM5 (DDC key hash: 3B813D8DF20764E064D25266F9507733E52D64F2), compiling. 
+[2022.08.11-06.08.19:593][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:594][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Tire_Rubber_BaseColor.png
+[2022.08.11-06.08.19:594][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Tire_Rubber_Normal.png
+[2022.08.11-06.08.19:597][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber in PCD3D_SM5, Default, SM5 (DDC key hash: 19F0140DCF31A7F34D0367616BA957B544595786), compiling. 
+[2022.08.11-06.08.19:600][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chain.Bike_Chain needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:606][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain in PCD3D_SM5, Default, SM5 (DDC key hash: 2D18E974167575E37C6F4C412D0B02E07CE7F920), compiling. 
+[2022.08.11-06.08.19:642][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:642][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Chain_BaseColor.png
+[2022.08.11-06.08.19:643][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Chain_Normal.png
+[2022.08.11-06.08.19:645][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain in PCD3D_SM5, Default, SM5 (DDC key hash: 928F5862FCAD8E14E31AB4174AA9EFA46B994BE2), compiling. 
+[2022.08.11-06.08.19:648][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Black_Plastic.Bike_Black_Plastic needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:655][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic in PCD3D_SM5, Default, SM5 (DDC key hash: 831ADD140B192BBD0AE8364B14B31FA764BCCD0F), compiling. 
+[2022.08.11-06.08.19:691][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:692][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Black_Plastic_Normal.png
+[2022.08.11-06.08.19:694][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic in PCD3D_SM5, Default, SM5 (DDC key hash: FEBE962B893EA22BB33C848408A470CC008156F1), compiling. 
+[2022.08.11-06.08.19:697][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Body.Bike_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:704][372]LogMaterial: Display: Missing cached shadermap for Bike_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 35222959BD5002FD0DD31459A15EDB6284E544FC), compiling. 
+[2022.08.11-06.08.19:738][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:739][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Body_BaseColor.png
+[2022.08.11-06.08.19:740][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Body_Normal.png
+[2022.08.11-06.08.19:742][372]LogMaterial: Display: Missing cached shadermap for Bike_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 75ADBB4F90147598CA08399452479A8C00D5C4B3), compiling. 
+[2022.08.11-06.08.19:747][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Leather.Bike_Leather needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.19:752][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather in PCD3D_SM5, Default, SM5 (DDC key hash: E48682FD75829C31904692B9AFA9ED7A3A4FFFD7), compiling. 
+[2022.08.11-06.08.19:780][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.19:782][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Leather_BaseColor.png
+[2022.08.11-06.08.19:783][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\Bfwr.fbm\Bike_Leather_Normal.png
+[2022.08.11-06.08.19:788][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather in PCD3D_SM5, Default, SM5 (DDC key hash: B2B5C8D56E88E78E953A9C08DCA84383BE0B2EAD), compiling. 
+[2022.08.11-06.08.20:453][372]LogFbx: Warning: Bones digested - 14  Depth of hierarchy - 4
+[2022.08.11-06.08.22:297][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.08.29:412][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.08.29:449][372]LogSkeletalMesh: Building Skeletal Mesh Bfrw_Bike_Mesh...
+[2022.08.11-06.08.30:279][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.08.37:425][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.08.38:198][372]LogSkeletalMesh: Built Skeletal Mesh [8.75s] /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_Bike_Mesh
+[2022.08.11-06.08.38:328][372]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.11-06.08.38:328][372]LogShaderCompilers: Display: Total job queries 256, among them cache hits 0 (0.00%)
+[2022.08.11-06.08.38:328][372]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 23 distinct outputs (71.88%)
+[2022.08.11-06.08.38:328][372]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.08.11-06.08.38:328][372]LogShaderCompilers: Display: ================================================
+[2022.08.11-06.08.38:331][372]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.08.38:331][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.08.38:669][372]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.08.38:669][372]FBXImport: Warning: The following bones are missing from the bind pose:
+Hips  
+Spine  
+Spine1  
+Spine2  
+Neck  
+Head  
+HeadTop_End  
+LeftShoulder  
+LeftArm  
+LeftForeArm  
+LeftHand  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+LeftHandThumb4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightShoulder  
+RightArm  
+RightForeArm  
+RightHand  
+RightHandThumb1  
+RightHandThumb2  
+RightHandThumb3  
+RightHandThumb4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftUpLeg  
+LeftLeg  
+LeftFoot  
+LeftToeBase  
+LeftToe_End  
+RightUpLeg  
+RightLeg  
+RightFoot  
+RightToeBase  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.08.11-06.08.38:864][372]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\both\BfrwStanding.fbx)
+[2022.08.11-06.08.38:939][372]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\both\BfrwStanding.fbx
+[2022.08.11-06.08.39:268][372]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.08.39:276][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.001) - Bike_Mesh
+[2022.08.11-06.08.39:276][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.001) - Node Bike_Mesh : The relative matrices do not match
+[2022.08.11-06.08.39:311][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chrome_001.Bike_Chrome_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:312][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 3E56B170944B8A07C26B755D0C2857CB85E77469), compiling. 
+[2022.08.11-06.08.39:341][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:341][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Chrome_BaseColor.png
+[2022.08.11-06.08.39:342][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Chrome_Normal.png
+[2022.08.11-06.08.39:344][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_001 in PCD3D_SM5, Default, SM5 (DDC key hash: F6235EF5A8B44BAA36EB216FA30917CD91E2A97F), compiling. 
+[2022.08.11-06.08.39:346][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Tire_Rubber_001.Bike_Tire_Rubber_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:350][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 8CE91FCD5BFEE32650800EE790D7EDEC5E8C62C6), compiling. 
+[2022.08.11-06.08.39:375][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:376][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Tire_Rubber_BaseColor.png
+[2022.08.11-06.08.39:376][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Tire_Rubber_Normal.png
+[2022.08.11-06.08.39:378][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 56BF5FC6CA262572C3863D0420C897F5F4CC970A), compiling. 
+[2022.08.11-06.08.39:381][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chain_001.Bike_Chain_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:385][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_001 in PCD3D_SM5, Default, SM5 (DDC key hash: EE10965DBC0A78D8BDAB453B890E31A5B0662CF8), compiling. 
+[2022.08.11-06.08.39:410][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:411][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Chain_BaseColor.png
+[2022.08.11-06.08.39:411][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Chain_Normal.png
+[2022.08.11-06.08.39:413][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 6E39CD48087A2B77621271277EFD3D249DF707EE), compiling. 
+[2022.08.11-06.08.39:415][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Black_Plastic_001.Bike_Black_Plastic_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:418][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B8F7A5D9FD847D4696BE0A015F7F555BC2EC05C), compiling. 
+[2022.08.11-06.08.39:444][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:445][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Black_Plastic_Normal.png
+[2022.08.11-06.08.39:447][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 55420C3555892D80C0CEC630F8700621019E45C9), compiling. 
+[2022.08.11-06.08.39:449][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Body_001.Bike_Body_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:453][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 9CCFA0B4AFFE854745E082F40D0048ED67FAE088), compiling. 
+[2022.08.11-06.08.39:478][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:479][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Body_BaseColor.png
+[2022.08.11-06.08.39:479][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Body_Normal.png
+[2022.08.11-06.08.39:491][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 0A4E399DD0E7088F461EED1FB55FCFC60769B1E1), compiling. 
+[2022.08.11-06.08.39:494][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Leather_001.Bike_Leather_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.39:497][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 4856C8796D80D1557F183339A89BD98618F67F9F), compiling. 
+[2022.08.11-06.08.39:522][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:523][372]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2022.08.11-06.08.39:523][372]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2022.08.11-06.08.39:523][372]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.08.11-06.08.39:523][372]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.08.11-06.08.39:523][372]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.08.11-06.08.39:523][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Leather_BaseColor.png
+[2022.08.11-06.08.39:523][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Bike_Leather_Normal.png
+[2022.08.11-06.08.39:524][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_001 in PCD3D_SM5, Default, SM5 (DDC key hash: E9409EB5C365AE0BD43162300A9E1C5BDC14DCC5), compiling. 
+[2022.08.11-06.08.40:217][372]LogFbx: Warning: Bones digested - 14  Depth of hierarchy - 4
+[2022.08.11-06.08.42:458][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.08.49:611][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.08.49:611][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.08.49:611][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.08.49:611][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.08.49:612][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.08.49:612][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.08.49:650][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStanding_Bike_Mesh...
+[2022.08.11-06.08.50:499][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.08.57:669][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.08.58:414][372]LogSkeletalMesh: Built Skeletal Mesh [8.76s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_Bike_Mesh
+[2022.08.11-06.08.58:519][372]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.08.58:519][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.08.58:800][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.001) - paperBoyJoined
+[2022.08.11-06.08.58:801][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.001) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.08.58:808][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_001.Ch42_Body_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.58:809][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 084FBF25975342E4E29A511FE45AE9EF84972A37), compiling. 
+[2022.08.11-06.08.58:835][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.58:835][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\file2.png
+[2022.08.11-06.08.58:836][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.08.58:843][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_001 in PCD3D_SM5, Default, SM5 (DDC key hash: B120843C0D87739CF2131D3BEADE710830D4B0C6), compiling. 
+[2022.08.11-06.08.58:846][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_001.Ch42_Hair_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.08.58:849][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_001 in PCD3D_SM5, Default, SM5 (DDC key hash: 000EC80E9C81BA046DA19E8B002F3ADAE800A463), compiling. 
+[2022.08.11-06.08.58:875][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.08.58:875][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.08.58:875][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStanding.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.08.58:876][372]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2022.08.11-06.08.58:876][372]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2022.08.11-06.08.58:877][372]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.08.11-06.08.58:877][372]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.08.11-06.08.58:877][372]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.08.11-06.08.58:877][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_001 in PCD3D_SM5, Default, SM5 (DDC key hash: DF3911EF0F9EACB119923C368BB7FACAB2E57B94), compiling. 
+[2022.08.11-06.08.58:970][372]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.09.00:927][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.00:927][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.00:970][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStanding_paperBoyJoined...
+[2022.08.11-06.09.02:398][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.02:398][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.02:522][372]LogSkeletalMesh: Built Skeletal Mesh [1.55s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_paperBoyJoined
+[2022.08.11-06.09.02:544][372]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.02:544][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.02:610][372]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.09.02:610][372]FBXImport: Warning: The following bones are missing from the bind pose:
+Hips  
+Spine  
+Spine1  
+Spine2  
+Neck  
+Head  
+HeadTop_End  
+LeftShoulder  
+LeftArm  
+LeftForeArm  
+LeftHand  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+LeftHandThumb4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightShoulder  
+RightArm  
+RightForeArm  
+RightHand  
+RightHandThumb1  
+RightHandThumb2  
+RightHandThumb3  
+RightHandThumb4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftUpLeg  
+LeftLeg  
+LeftFoot  
+LeftToeBase  
+LeftToe_End  
+RightUpLeg  
+RightLeg  
+RightFoot  
+RightToeBase  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.08.11-06.09.03:026][372]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingFast.fbx)
+[2022.08.11-06.09.03:077][372]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingFast.fbx
+[2022.08.11-06.09.03:433][372]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.09.03:446][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.002) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.09.03:447][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.002) - paperBoyJoined
+[2022.08.11-06.09.03:468][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_002.Ch42_Body_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.03:470][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 28BB09767D4658B143C69A88490BDC9B5A06CD64), compiling. 
+[2022.08.11-06.09.03:506][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.03:507][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\file2.png
+[2022.08.11-06.09.03:507][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.03:509][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: E4E0BBBDB3F439BA68141BAB11DC10DD848ED16C), compiling. 
+[2022.08.11-06.09.03:512][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_002.Ch42_Hair_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.03:515][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 0076AD26C299F077E45496994DD89496A3C51019), compiling. 
+[2022.08.11-06.09.03:540][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.03:541][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.09.03:541][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.03:543][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: AF5608C3029B819637016E1CBC4BFB614D1EFCB6), compiling. 
+[2022.08.11-06.09.03:618][372]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.09.04:940][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.04:940][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.04:977][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingFast_paperBoyJoined...
+[2022.08.11-06.09.06:115][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.06:115][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.06:209][372]LogSkeletalMesh: Built Skeletal Mesh [1.23s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast_paperBoyJoined
+[2022.08.11-06.09.06:227][372]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.06:227][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.06:277][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.002) - Node Bike_Mesh : The relative matrices do not match
+[2022.08.11-06.09.06:277][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.002) - Bike_Mesh
+[2022.08.11-06.09.06:311][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chrome_002.Bike_Chrome_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:312][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 4F47E60BA69A468FB88B7CD506AF242CE3B22DCD), compiling. 
+[2022.08.11-06.09.06:337][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:338][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Chrome_BaseColor.png
+[2022.08.11-06.09.06:338][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Chrome_Normal.png
+[2022.08.11-06.09.06:340][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_002 in PCD3D_SM5, Default, SM5 (DDC key hash: B30115449D29A082552B7EEA60FB39680EA31D32), compiling. 
+[2022.08.11-06.09.06:343][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Tire_Rubber_002.Bike_Tire_Rubber_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:346][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_002 in PCD3D_SM5, Default, SM5 (DDC key hash: CE04CDEA6CB499A359AC418EECDC372B84CE7D73), compiling. 
+[2022.08.11-06.09.06:371][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:372][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Tire_Rubber_BaseColor.png
+[2022.08.11-06.09.06:372][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Tire_Rubber_Normal.png
+[2022.08.11-06.09.06:374][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 295590642757BD326C5C79238A44E36FE87832F9), compiling. 
+[2022.08.11-06.09.06:377][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chain_002.Bike_Chain_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:380][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 42CC81AB76BB91A40573C7BC1DD17C9143CCA7C0), compiling. 
+[2022.08.11-06.09.06:406][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:406][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Chain_BaseColor.png
+[2022.08.11-06.09.06:406][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Chain_Normal.png
+[2022.08.11-06.09.06:408][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 20653B147F3B999812EFF0D34590E541D3F766BB), compiling. 
+[2022.08.11-06.09.06:411][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Black_Plastic_002.Bike_Black_Plastic_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:414][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F908D24243B81E553843663675067B0CC0E80F6), compiling. 
+[2022.08.11-06.09.06:439][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:450][372]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2022.08.11-06.09.06:450][372]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2022.08.11-06.09.06:450][372]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.08.11-06.09.06:450][372]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.08.11-06.09.06:450][372]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:452][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Black_Plastic_Normal.png
+[2022.08.11-06.09.06:455][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 67459E6359D77E7B6559F2C6EA2E350DFCDE4A3D), compiling. 
+[2022.08.11-06.09.06:459][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Body_002.Bike_Body_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:465][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: A28800B7989094178AA0369EAD91E7F80FF8CF17), compiling. 
+[2022.08.11-06.09.06:497][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:498][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Body_BaseColor.png
+[2022.08.11-06.09.06:499][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Body_Normal.png
+[2022.08.11-06.09.06:501][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: BC5788F92C2095A9546580F111947B92EE0A87CE), compiling. 
+[2022.08.11-06.09.06:506][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Leather_002.Bike_Leather_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.06:510][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 3BB1815B7515B4459D743372FA10883423D711B8), compiling. 
+[2022.08.11-06.09.06:544][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.06:545][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Leather_BaseColor.png
+[2022.08.11-06.09.06:545][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingFast.fbm\Bike_Leather_Normal.png
+[2022.08.11-06.09.06:548][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 65492BDFD94AB6DDD4888B1326C139BC15C1A3A8), compiling. 
+[2022.08.11-06.09.07:267][372]LogFbx: Warning: Bones digested - 14  Depth of hierarchy - 4
+[2022.08.11-06.09.09:631][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.09.16:655][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.09.16:655][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.09.16:656][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.09.16:656][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.09.16:656][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.09.16:656][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.09.16:694][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingFast_Bike_Mesh...
+[2022.08.11-06.09.17:510][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.09.24:500][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.09.25:258][372]LogSkeletalMesh: Built Skeletal Mesh [8.56s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast_Bike_Mesh
+[2022.08.11-06.09.25:359][372]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.25:360][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.25:706][372]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.09.25:706][372]FBXImport: Warning: The following bones are missing from the bind pose:
+Hips  
+Spine  
+Spine1  
+Spine2  
+Neck  
+Head  
+HeadTop_End  
+LeftShoulder  
+LeftArm  
+LeftForeArm  
+LeftHand  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+LeftHandThumb4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightShoulder  
+RightArm  
+RightForeArm  
+RightHand  
+RightHandThumb1  
+RightHandThumb2  
+RightHandThumb3  
+RightHandThumb4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftUpLeg  
+LeftLeg  
+LeftFoot  
+LeftToeBase  
+LeftToe_End  
+RightUpLeg  
+RightLeg  
+RightFoot  
+RightToeBase  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.08.11-06.09.25:811][372]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingLeft.fbx)
+[2022.08.11-06.09.25:867][372]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingLeft.fbx
+[2022.08.11-06.09.26:280][372]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.09.26:290][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.003) - Bike_Mesh
+[2022.08.11-06.09.26:291][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.003) - Node Bike_Mesh : The relative matrices do not match
+[2022.08.11-06.09.26:326][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chrome_003.Bike_Chrome_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:327][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_003 in PCD3D_SM5, Default, SM5 (DDC key hash: CB0895B4DC0A2C07B70C40AA476DE4046E11DBF8), compiling. 
+[2022.08.11-06.09.26:371][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:372][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Chrome_BaseColor.png
+[2022.08.11-06.09.26:372][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Chrome_Normal.png
+[2022.08.11-06.09.26:374][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 26FCF1AACD662023FC4535026CA2F60D474588E7), compiling. 
+[2022.08.11-06.09.26:377][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Tire_Rubber_003.Bike_Tire_Rubber_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:379][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_003 in PCD3D_SM5, Default, SM5 (DDC key hash: ABB4F3E7DD154F8F7830939E9BB0B6E0D5F84FAB), compiling. 
+[2022.08.11-06.09.26:404][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:405][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Tire_Rubber_BaseColor.png
+[2022.08.11-06.09.26:405][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Tire_Rubber_Normal.png
+[2022.08.11-06.09.26:407][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 75A5F5221373E9515185F67FA457B767D88FDBD7), compiling. 
+[2022.08.11-06.09.26:410][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chain_003.Bike_Chain_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:413][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_003 in PCD3D_SM5, Default, SM5 (DDC key hash: F90CFE4EB79852420FAF47136C9049069C6A5B57), compiling. 
+[2022.08.11-06.09.26:439][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:440][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Chain_BaseColor.png
+[2022.08.11-06.09.26:440][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Chain_Normal.png
+[2022.08.11-06.09.26:442][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 3D6F1088994D28050335A486693E3BD924F3449C), compiling. 
+[2022.08.11-06.09.26:445][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Black_Plastic_003.Bike_Black_Plastic_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:448][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 864E2AA8959BDFF750A7380909DF840AD09DE6EA), compiling. 
+[2022.08.11-06.09.26:473][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:473][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Black_Plastic_Normal.png
+[2022.08.11-06.09.26:475][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 7AB51EFAB2BB7E50901BD2A513C355905B142422), compiling. 
+[2022.08.11-06.09.26:478][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Body_003.Bike_Body_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:482][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 9BD5AACE80FFB44246419D211C53F86D043DA293), compiling. 
+[2022.08.11-06.09.26:507][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:508][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Body_BaseColor.png
+[2022.08.11-06.09.26:508][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Body_Normal.png
+[2022.08.11-06.09.26:510][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 0B7559DF72136D383F249DD14EE2861B19325AE9), compiling. 
+[2022.08.11-06.09.26:513][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Leather_003.Bike_Leather_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.26:517][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 2286F67FA62644771784276609E52A418EEBF657), compiling. 
+[2022.08.11-06.09.26:542][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.26:543][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Leather_BaseColor.png
+[2022.08.11-06.09.26:543][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Bike_Leather_Normal.png
+[2022.08.11-06.09.26:546][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 6F9FFCD0B62828225E325272986F4A2006DFDC7E), compiling. 
+[2022.08.11-06.09.27:048][372]LogFbx: Warning: Bones digested - 14  Depth of hierarchy - 4
+[2022.08.11-06.09.28:714][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingLeft.BfrwStandingLeft_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.09.35:632][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.09.35:671][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingLeft_Bike_Mesh...
+[2022.08.11-06.09.36:483][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingLeft.BfrwStandingLeft_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.09.43:352][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.09.44:062][372]LogSkeletalMesh: Built Skeletal Mesh [8.39s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingLeft.BfrwStandingLeft_Bike_Mesh
+[2022.08.11-06.09.44:164][372]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.44:164][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.44:461][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.003) - paperBoyJoined
+[2022.08.11-06.09.44:462][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.003) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.09.44:469][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_003.Ch42_Body_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.44:470][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 50D07A6D9B08A85304E1AAEE38460F704C2308AB), compiling. 
+[2022.08.11-06.09.44:496][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.44:497][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\file2.png
+[2022.08.11-06.09.44:497][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.44:499][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 709DCDE29F59D59CD9D20B9D3464F0B6437680F7), compiling. 
+[2022.08.11-06.09.44:502][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_003.Ch42_Hair_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.44:505][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_003 in PCD3D_SM5, Default, SM5 (DDC key hash: EAC9A44F5AF77CC34028164D8AE39DABDD55E23D), compiling. 
+[2022.08.11-06.09.44:530][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.44:531][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.09.44:531][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingLeft.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.44:538][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_003 in PCD3D_SM5, Default, SM5 (DDC key hash: 7D2951F5D99AEE0C7DBE9E175DCE25B5E55C3F9C), compiling. 
+[2022.08.11-06.09.44:609][372]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.09.46:021][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.46:021][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.46:067][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingLeft_paperBoyJoined...
+[2022.08.11-06.09.47:196][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.47:196][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.47:289][372]LogSkeletalMesh: Built Skeletal Mesh [1.22s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingLeft.BfrwStandingLeft_paperBoyJoined
+[2022.08.11-06.09.47:306][372]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.47:306][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.47:389][372]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.09.47:389][372]FBXImport: Warning: The following bones are missing from the bind pose:
+Hips  
+Spine  
+Spine1  
+Spine2  
+Neck  
+Head  
+HeadTop_End  
+LeftShoulder  
+LeftArm  
+LeftForeArm  
+LeftHand  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+LeftHandThumb4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightShoulder  
+RightArm  
+RightForeArm  
+RightHand  
+RightHandThumb1  
+RightHandThumb2  
+RightHandThumb3  
+RightHandThumb4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftUpLeg  
+LeftLeg  
+LeftFoot  
+LeftToeBase  
+LeftToe_End  
+RightUpLeg  
+RightLeg  
+RightFoot  
+RightToeBase  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.08.11-06.09.47:773][372]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingRight.fbx)
+[2022.08.11-06.09.47:822][372]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\both\BfrwStandingRight.fbx
+[2022.08.11-06.09.48:289][372]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.09.48:301][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.004) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.09.48:301][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.004) - paperBoyJoined
+[2022.08.11-06.09.48:309][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_004.Ch42_Body_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.48:310][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 6BCAD8DCA7C46500DD79CDF16BEC6474ED7539EC), compiling. 
+[2022.08.11-06.09.48:338][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.48:339][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\file2.png
+[2022.08.11-06.09.48:339][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.48:341][372]LogMaterial: Display: Missing cached shadermap for Ch42_Body_004 in PCD3D_SM5, Default, SM5 (DDC key hash: BBBD66595A75AAD79C64D1AFD8BB90EA2DD7D02B), compiling. 
+[2022.08.11-06.09.48:344][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_004.Ch42_Hair_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.48:347][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 95E6DF9E30AC7260A2C12884FBD072A123BAE25C), compiling. 
+[2022.08.11-06.09.48:372][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.48:373][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.09.48:373][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.09.48:375][372]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_004 in PCD3D_SM5, Default, SM5 (DDC key hash: C3A208E9A2C5F19034D12946D7F9A89078E9C65C), compiling. 
+[2022.08.11-06.09.48:445][372]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.09.49:738][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.49:738][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.49:795][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingRight_paperBoyJoined...
+[2022.08.11-06.09.51:035][372]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.09.51:035][372]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.09.51:131][372]LogSkeletalMesh: Built Skeletal Mesh [1.34s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingRight.BfrwStandingRight_paperBoyJoined
+[2022.08.11-06.09.51:148][372]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.09.51:148][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.09.51:246][372]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.004) - Node Bike_Mesh : The relative matrices do not match
+[2022.08.11-06.09.51:246][372]LogFbx: Valid bind pose for Pose (Bike_Mesh.004) - Bike_Mesh
+[2022.08.11-06.09.51:280][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chrome_004.Bike_Chrome_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:281][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 35B57963912CDBC2C34DC53DA91EAA3EDD57C9A1), compiling. 
+[2022.08.11-06.09.51:307][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:307][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Chrome_BaseColor.png
+[2022.08.11-06.09.51:307][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Chrome_Normal.png
+[2022.08.11-06.09.51:309][372]LogMaterial: Display: Missing cached shadermap for Bike_Chrome_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 176C91CE18779973887D3DD211FE0C64961FCF54), compiling. 
+[2022.08.11-06.09.51:312][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Tire_Rubber_004.Bike_Tire_Rubber_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:315][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 9CD025CC51EC5BAA9704843C90E1F703FCF7F30E), compiling. 
+[2022.08.11-06.09.51:340][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:341][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Tire_Rubber_BaseColor.png
+[2022.08.11-06.09.51:341][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Tire_Rubber_Normal.png
+[2022.08.11-06.09.51:343][372]LogMaterial: Display: Missing cached shadermap for Bike_Tire_Rubber_004 in PCD3D_SM5, Default, SM5 (DDC key hash: A2ECA2E39FE9A73CD0719B5BF5C36228930AB32A), compiling. 
+[2022.08.11-06.09.51:346][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Chain_004.Bike_Chain_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:349][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_004 in PCD3D_SM5, Default, SM5 (DDC key hash: ED6FA704203D5FF53717946279D6687B84F2BC5A), compiling. 
+[2022.08.11-06.09.51:374][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:375][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Chain_BaseColor.png
+[2022.08.11-06.09.51:375][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Chain_Normal.png
+[2022.08.11-06.09.51:377][372]LogMaterial: Display: Missing cached shadermap for Bike_Chain_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 79DA23887566988F7FD433069B87434CAD9049C8), compiling. 
+[2022.08.11-06.09.51:379][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Black_Plastic_004.Bike_Black_Plastic_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:382][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_004 in PCD3D_SM5, Default, SM5 (DDC key hash: A540A9B5EA07B439D4AE699C28DD218697A69DAB), compiling. 
+[2022.08.11-06.09.51:408][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:408][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Black_Plastic_Normal.png
+[2022.08.11-06.09.51:410][372]LogMaterial: Display: Missing cached shadermap for Bike_Black_Plastic_004 in PCD3D_SM5, Default, SM5 (DDC key hash: FA0729C9D3A5E32737C9A613988D408C8FD4308D), compiling. 
+[2022.08.11-06.09.51:413][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Body_004.Bike_Body_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:416][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_004 in PCD3D_SM5, Default, SM5 (DDC key hash: EB900E739CE880F87699AD3F2CF17C06F79CCE9F), compiling. 
+[2022.08.11-06.09.51:441][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:442][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Body_BaseColor.png
+[2022.08.11-06.09.51:442][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Body_Normal.png
+[2022.08.11-06.09.51:444][372]LogMaterial: Display: Missing cached shadermap for Bike_Body_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 71192208F00CF9E6AD328B8CD9295FA72DF9270B), compiling. 
+[2022.08.11-06.09.51:447][372]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Bike_Leather_004.Bike_Leather_004 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.09.51:450][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 004600F5BAE86890C524F50C27C4E5644E6B242B), compiling. 
+[2022.08.11-06.09.51:475][372]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.09.51:476][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Leather_BaseColor.png
+[2022.08.11-06.09.51:476][372]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\both\BfrwStandingRight.fbm\Bike_Leather_Normal.png
+[2022.08.11-06.09.51:478][372]LogMaterial: Display: Missing cached shadermap for Bike_Leather_004 in PCD3D_SM5, Default, SM5 (DDC key hash: 1ACC1BED8C81EAF8175325A6C66B71314869D298), compiling. 
+[2022.08.11-06.09.51:929][372]LogFbx: Warning: Bones digested - 14  Depth of hierarchy - 4
+[2022.08.11-06.09.53:487][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingRight.BfrwStandingRight_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.10.00:464][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.10.00:504][372]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingRight_Bike_Mesh...
+[2022.08.11-06.10.01:323][372]LogSkeletalMesh: Display: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingRight.BfrwStandingRight_Bike_Mesh ComputeTangents MikkTSpace function: Compute a zero length normal vector.
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 0: Material=0, 211028 triangles
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 1: Material=1, 3640 triangles
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 2: Material=2, 78704 triangles
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 3: Material=3, 7536 triangles
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 4: Material=4, 8002 triangles
+[2022.08.11-06.10.08:252][372]LogSkeletalMesh: Section 5: Material=5, 1404 triangles
+[2022.08.11-06.10.09:050][372]LogSkeletalMesh: Built Skeletal Mesh [8.54s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingRight.BfrwStandingRight_Bike_Mesh
+[2022.08.11-06.10.09:153][372]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.10.09:154][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.10.09:486][372]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.10.09:486][372]FBXImport: Warning: The following bones are missing from the bind pose:
+Hips  
+Spine  
+Spine1  
+Spine2  
+Neck  
+Head  
+HeadTop_End  
+LeftShoulder  
+LeftArm  
+LeftForeArm  
+LeftHand  
+LeftHandThumb1  
+LeftHandThumb2  
+LeftHandThumb3  
+LeftHandThumb4  
+LeftHandIndex1  
+LeftHandIndex2  
+LeftHandIndex3  
+LeftHandIndex4  
+LeftHandMiddle1  
+LeftHandMiddle2  
+LeftHandMiddle3  
+LeftHandMiddle4  
+LeftHandRing1  
+LeftHandRing2  
+LeftHandRing3  
+LeftHandRing4  
+LeftHandPinky1  
+LeftHandPinky2  
+LeftHandPinky3  
+LeftHandPinky4  
+RightShoulder  
+RightArm  
+RightForeArm  
+RightHand  
+RightHandThumb1  
+RightHandThumb2  
+RightHandThumb3  
+RightHandThumb4  
+RightHandIndex1  
+RightHandIndex2  
+RightHandIndex3  
+RightHandIndex4  
+RightHandMiddle1  
+RightHandMiddle2  
+RightHandMiddle3  
+RightHandMiddle4  
+RightHandRing1  
+RightHandRing2  
+RightHandRing3  
+RightHandRing4  
+RightHandPinky1  
+RightHandPinky2  
+RightHandPinky3  
+RightHandPinky4  
+LeftUpLeg  
+LeftLeg  
+LeftFoot  
+LeftToeBase  
+LeftToe_End  
+RightUpLeg  
+RightLeg  
+RightFoot  
+RightToeBase  
+RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.08.11-06.10.10:251][375]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:251][375]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.08.11-06.10.10:251][375]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.08.11-06.10.10:251][375]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:251][375]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:255][375]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.08.11-06.10.10:255][375]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2022.08.11-06.10.10:255][375]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:409][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:429][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:438][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:472][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:482][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:515][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:524][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:556][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:565][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:602][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:610][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:643][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:654][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:684][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:696][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:724][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:735][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:767][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:777][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:783][378]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2022.08.11-06.10.10:783][378]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:812][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:819][378]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2022.08.11-06.10.10:819][378]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:821][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:853][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:868][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:902][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:913][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:943][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:953][378]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2022.08.11-06.10.10:953][378]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:953][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.10:987][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.10:996][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:033][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:043][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:059][378]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2022.08.11-06.10.11:059][378]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:078][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:086][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:119][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:129][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:163][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:172][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:205][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:215][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:247][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:258][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:293][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:304][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:339][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:350][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:383][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:395][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:428][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:438][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:473][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:483][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:520][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:530][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:562][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:572][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:608][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:617][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:651][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:660][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:694][378]LogShaderCompilers: Display: Submitted 30 shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.11:716][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:720][378]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:819][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:819][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:819][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:819][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:820][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.11:825][379]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.13:176][426]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 116
+[2022.08.11-06.10.13:176][426]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.13:893][458]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 106
+[2022.08.11-06.10.13:893][458]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.13:938][460]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 96
+[2022.08.11-06.10.13:938][460]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.14:164][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 86
+[2022.08.11-06.10.14:164][470]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.17:600][630]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 76
+[2022.08.11-06.10.17:600][630]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.18:270][660]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 66
+[2022.08.11-06.10.18:270][660]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.18:299][661]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2022.08.11-06.10.18:299][661]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.18:450][668]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 46
+[2022.08.11-06.10.18:450][668]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.21:398][874]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2022.08.11-06.10.21:398][874]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.22:000][915]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2022.08.11-06.10.22:000][915]LogShaderCompilers: Display: Started 7 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.22:039][918]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2022.08.11-06.10.22:039][918]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.22:576][956]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2022.08.11-06.10.22:576][956]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.24:358][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.08.11-06.10.24:358][ 81]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.24:421][ 85]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2022.08.11-06.10.24:421][ 85]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.25:417][154]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.08.11-06.10.25:417][154]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.25:492][159]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2022.08.11-06.10.25:492][159]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.25:919][188]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.08.11-06.10.25:919][188]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.25:934][189]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.08.11-06.10.25:934][189]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.10.26:105][201]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 840
+[2022.08.11-06.10.26:105][201]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.26:356][217]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 830
+[2022.08.11-06.10.26:356][217]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.26:429][222]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 820
+[2022.08.11-06.10.26:429][222]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.26:508][228]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 810
+[2022.08.11-06.10.26:508][228]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.29:847][504]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 800
+[2022.08.11-06.10.29:847][504]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.30:329][546]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 790
+[2022.08.11-06.10.30:330][546]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.30:569][566]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 780
+[2022.08.11-06.10.30:569][566]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.31:372][633]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 770
+[2022.08.11-06.10.31:372][633]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.33:394][801]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 760
+[2022.08.11-06.10.33:395][801]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.33:932][846]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 750
+[2022.08.11-06.10.33:932][846]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.34:885][926]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 740
+[2022.08.11-06.10.34:885][926]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.35:343][965]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 730
+[2022.08.11-06.10.35:343][965]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.37:483][142]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 720
+[2022.08.11-06.10.37:484][142]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.37:994][184]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 710
+[2022.08.11-06.10.37:994][184]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.38:688][243]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 700
+[2022.08.11-06.10.38:688][243]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.39:459][306]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 690
+[2022.08.11-06.10.39:459][306]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.41:447][473]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 680
+[2022.08.11-06.10.41:447][473]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.41:797][503]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 670
+[2022.08.11-06.10.41:797][503]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.43:122][612]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 660
+[2022.08.11-06.10.43:122][612]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.43:324][628]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 650
+[2022.08.11-06.10.43:324][628]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.44:821][755]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 640
+[2022.08.11-06.10.44:821][755]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.46:663][911]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 630
+[2022.08.11-06.10.46:663][911]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.46:710][914]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 620
+[2022.08.11-06.10.46:710][914]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.46:945][935]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 610
+[2022.08.11-06.10.46:945][935]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.49:581][153]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 600
+[2022.08.11-06.10.49:582][153]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.50:131][200]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 590
+[2022.08.11-06.10.50:131][200]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.50:760][251]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 580
+[2022.08.11-06.10.50:761][251]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.50:949][266]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 570
+[2022.08.11-06.10.50:949][266]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.53:530][455]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 560
+[2022.08.11-06.10.53:530][455]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.54:479][525]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 550
+[2022.08.11-06.10.54:479][525]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.54:923][555]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 540
+[2022.08.11-06.10.54:923][555]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.54:956][557]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 530
+[2022.08.11-06.10.54:956][557]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.58:244][791]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 520
+[2022.08.11-06.10.58:244][791]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.58:590][814]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 510
+[2022.08.11-06.10.58:590][814]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.10.58:670][819]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 500
+[2022.08.11-06.10.58:670][819]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.00:131][923]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 490
+[2022.08.11-06.11.00:131][923]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.02:039][ 62]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 480
+[2022.08.11-06.11.02:039][ 62]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.02:502][ 94]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 470
+[2022.08.11-06.11.02:502][ 94]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.03:810][188]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 460
+[2022.08.11-06.11.03:810][188]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.03:906][194]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 450
+[2022.08.11-06.11.03:906][194]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.06:454][376]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 440
+[2022.08.11-06.11.06:454][376]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.06:697][393]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 430
+[2022.08.11-06.11.06:697][393]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.07:883][476]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 420
+[2022.08.11-06.11.07:883][476]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.08:330][507]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 410
+[2022.08.11-06.11.08:330][507]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.10:507][677]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 400
+[2022.08.11-06.11.10:507][677]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.10:631][689]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 390
+[2022.08.11-06.11.10:631][689]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.12:228][817]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 380
+[2022.08.11-06.11.12:228][817]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.12:378][828]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 370
+[2022.08.11-06.11.12:378][828]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.13:987][938]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 360
+[2022.08.11-06.11.13:987][938]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.15:729][ 62]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 350
+[2022.08.11-06.11.15:729][ 62]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.15:935][ 76]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 340
+[2022.08.11-06.11.15:935][ 76]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.16:295][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 330
+[2022.08.11-06.11.16:295][102]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.19:074][301]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 320
+[2022.08.11-06.11.19:074][301]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.19:417][325]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 310
+[2022.08.11-06.11.19:417][325]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.20:243][386]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 300
+[2022.08.11-06.11.20:243][386]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.20:487][403]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 290
+[2022.08.11-06.11.20:487][403]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.23:106][594]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 280
+[2022.08.11-06.11.23:106][594]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.23:740][639]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 270
+[2022.08.11-06.11.23:740][639]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.24:384][685]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 260
+[2022.08.11-06.11.24:384][685]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.24:496][693]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 250
+[2022.08.11-06.11.24:496][693]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.27:831][936]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 240
+[2022.08.11-06.11.27:831][936]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.27:870][938]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 230
+[2022.08.11-06.11.27:870][938]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.27:940][943]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 220
+[2022.08.11-06.11.27:940][943]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.29:711][ 67]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 210
+[2022.08.11-06.11.29:711][ 67]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.31:668][208]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 200
+[2022.08.11-06.11.31:668][208]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.31:781][216]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 190
+[2022.08.11-06.11.31:781][216]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.33:080][310]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 180
+[2022.08.11-06.11.33:080][310]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.33:373][331]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 170
+[2022.08.11-06.11.33:374][331]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.36:019][518]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 160
+[2022.08.11-06.11.36:019][518]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.36:073][521]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 150
+[2022.08.11-06.11.36:073][521]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.37:143][597]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 140
+[2022.08.11-06.11.37:143][597]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.37:791][644]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 130
+[2022.08.11-06.11.37:791][644]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.40:092][810]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 120
+[2022.08.11-06.11.40:092][810]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.40:103][810]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.08.11-06.11.40:103][810]LogShaderCompilers: Display: Total job queries 2271, among them cache hits 11 (0.48%)
+[2022.08.11-06.11.40:103][810]LogShaderCompilers: Display: Tracking 958 distinct input hashes that result in 42 distinct outputs (4.38%)
+[2022.08.11-06.11.40:103][810]LogShaderCompilers: Display: RAM used: 0.29 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.08.11-06.11.40:103][810]LogShaderCompilers: Display: ================================================
+[2022.08.11-06.11.40:221][820]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 110
+[2022.08.11-06.11.40:221][820]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.41:837][932]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 100
+[2022.08.11-06.11.41:837][932]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.41:862][933]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 90
+[2022.08.11-06.11.41:862][933]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.43:708][ 68]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 80
+[2022.08.11-06.11.43:708][ 68]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.44:763][143]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.11.44:773][143]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.11.45:451][180]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 70
+[2022.08.11-06.11.45:451][180]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:512][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:512][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:512][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:545][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:553][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:581][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:590][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:619][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:619][181]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.08.11-06.11.45:619][181]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:631][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:665][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:671][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:703][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:713][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:736][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:745][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:762][181]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2022.08.11-06.11.45:762][181]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:774][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:781][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:810][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.45:820][181]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.45:849][181]LogShaderCompilers: Display: Submitted 28 shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.47:226][239]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 13
+[2022.08.11-06.11.47:226][239]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.47:798][265]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2022.08.11-06.11.47:798][265]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.48:986][360]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2022.08.11-06.11.48:986][360]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.49:206][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.08.11-06.11.49:206][377]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.49:300][385]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.08.11-06.11.49:301][385]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.49:337][388]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.08.11-06.11.49:337][388]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.08.11-06.11.49:800][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 340
+[2022.08.11-06.11.49:800][424]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.49:812][425]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 330
+[2022.08.11-06.11.49:812][425]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.49:921][435]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 320
+[2022.08.11-06.11.49:921][435]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.50:235][452]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 310
+[2022.08.11-06.11.50:235][452]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.53:637][582]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 300
+[2022.08.11-06.11.53:637][582]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.54:080][604]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 290
+[2022.08.11-06.11.54:080][604]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.54:731][635]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 280
+[2022.08.11-06.11.54:731][635]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.55:686][680]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 270
+[2022.08.11-06.11.55:686][680]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.57:684][777]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 260
+[2022.08.11-06.11.57:684][777]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.58:254][805]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 250
+[2022.08.11-06.11.58:254][805]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.11.59:729][874]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 240
+[2022.08.11-06.11.59:729][874]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.00:233][898]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 230
+[2022.08.11-06.12.00:233][898]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.02:444][  8]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 220
+[2022.08.11-06.12.02:444][  8]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.02:925][ 32]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 210
+[2022.08.11-06.12.02:925][ 32]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.04:159][ 89]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 200
+[2022.08.11-06.12.04:159][ 89]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.05:011][129]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 190
+[2022.08.11-06.12.05:011][129]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.07:148][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 180
+[2022.08.11-06.12.07:148][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.07:150][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 170
+[2022.08.11-06.12.07:150][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.07:194][203]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.08.11-06.12.08:964][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 160
+[2022.08.11-06.12.08:964][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.09:223][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 150
+[2022.08.11-06.12.09:223][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.10:293][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 140
+[2022.08.11-06.12.10:293][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.10:515][203]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.11-06.12.10:618][203]LogUObjectGlobals: Force Deleting 70 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_Bike_Mesh
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw_Bike_Mesh_PhysicsAsset.Bfrw_Bike_Mesh_PhysicsAsset
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw_Bike_Mesh_Skeleton.Bfrw_Bike_Mesh_Skeleton
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw.Bfrw_paperBoyJoined
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw_paperBoyJoined_PhysicsAsset.Bfrw_paperBoyJoined_PhysicsAsset
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Bfrw_paperBoyJoined_Skeleton.Bfrw_paperBoyJoined_Skeleton
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_Bike_Mesh
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding_Bike_Mesh_PhysicsAsset.BfrwStanding_Bike_Mesh_PhysicsAsset
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding_Bike_Mesh_Skeleton.BfrwStanding_Bike_Mesh_Skeleton
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStanding.BfrwStanding_paperBoyJoined
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 130
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 120
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 110
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 100
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 90
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 80
+[2022.08.11-06.12.15:845][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.16:238][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 70
+[2022.08.11-06.12.16:239][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.18:260][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2022.08.11-06.12.18:260][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.19:107][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2022.08.11-06.12.19:107][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.19:582][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2022.08.11-06.12.19:583][203]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.20:048][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2022.08.11-06.12.20:048][203]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.22:208][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2022.08.11-06.12.22:208][203]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.22:620][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2022.08.11-06.12.22:620][203]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.23:029][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2022.08.11-06.12.23:029][203]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.23:029][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.08.11-06.12.23:029][203]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.08.11-06.12.23:900][203]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.24:100][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.08.11-06.12.24:100][203]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.08.11-06.12.33:425][203]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.08.11-06.12.50:470][551]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\char\BfrwStandingFast.fbx)
+[2022.08.11-06.12.50:485][551]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\char\BfrwStandingFast.fbx
+[2022.08.11-06.12.50:604][551]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.13.28:215][551]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.08.11-06.13.28:245][551]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.002) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.13.28:245][551]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.08.11-06.13.28:273][551]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - paperBoyJoined
+[2022.08.11-06.13.28:273][551]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.08.11-06.13.28:281][551]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_002.Ch42_Body_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.13.28:282][551]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: C2779245D69087376976787E943F2D1C13E83A6C), compiling. 
+[2022.08.11-06.13.28:308][551]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.13.28:309][551]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\file2.png
+[2022.08.11-06.13.28:309][551]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.13.28:312][551]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 4943052C1DBD2BA6B64B1BFD1AA80DAA260C5428), compiling. 
+[2022.08.11-06.13.28:314][551]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_002.Ch42_Hair_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.13.28:317][551]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 715BC0D724680E487C2769F73455B83C08F6ECC3), compiling. 
+[2022.08.11-06.13.28:344][551]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.13.28:345][551]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.13.28:345][551]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.13.28:347][551]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 556B29AB004DE41E9A0AD5377A5D26E49007C2FE), compiling. 
+[2022.08.11-06.13.28:419][551]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.13.29:780][551]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.13.29:780][551]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.13.29:790][551]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingFast...
+[2022.08.11-06.13.30:922][551]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.13.30:922][551]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.13.31:017][551]LogSkeletalMesh: Built Skeletal Mesh [1.23s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast
+[2022.08.11-06.13.33:754][551]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.13.33:758][551]Message dialog closed, result: YesAll, title: Message, text: FAILED TO MERGE BONES:
+
+ This could happen if significant hierarchical changes have been made
+e.g. inserting a bone between nodes.
+Would you like to regenerate the Skeleton from this mesh?
+
+***WARNING: THIS MAY INVALIDATE OR REQUIRE RECOMPRESSION OF ANIMATION DATA.***
+
+[2022.08.11-06.13.33:966][551]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_FRW_Standing.Bike_Anim_Character_Cycling_FRW_Standing
+[2022.08.11-06.13.33:966][551]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_FRW_Standing_Fast.Bike_Anim_Character_Cycling_FRW_Standing_Fast
+[2022.08.11-06.13.36:321][551]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.13.36:325][551]Message dialog closed, result: Yes, title: Message, text: Would you like to merge all SkeletalMeshes using this skeleton to ensure all bones are merged? This will require to load those SkeletalMeshes.
+[2022.08.11-06.13.41:819][551]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.13.41:823][551]Message dialog closed, result: Ok, title: Message, text: Failed to merge SkeletalMesh 'SK_Mannequin'.
+[2022.08.11-06.13.45:621][551]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.13.45:625][551]Message dialog closed, result: Ok, title: Message, text: Failed to merge SkeletalMesh 'SK_Mannequin_Female'.
+[2022.08.11-06.13.45:700][551]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.13.45:701][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.13.45:766][551]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.13.46:035][551]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2022.08.11-06.13.46:035][551]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPersonWalk.ThirdPersonWalk
+[2022.08.11-06.13.46:136][552]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_Idle.Bike_Anim_Character_Cycling_Idle
+[2022.08.11-06.13.46:136][552]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2022.08.11-06.13.46:150][554]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_FRW.Bike_Anim_Character_Cycling_FRW
+[2022.08.11-06.13.46:151][554]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2022.08.11-06.13.46:171][555]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2022.08.11-06.13.46:171][555]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_FRW_Stand_Bkwheel.Bike_Anim_Character_Cycling_FRW_Stand_Bkwheel
+[2022.08.11-06.13.46:209][556]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Demo/Mannequin/Animations/ThirdPersonIdle.ThirdPersonIdle
+[2022.08.11-06.13.46:209][556]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Bicycle_With_Animations/Animations/Bike_Anim_Character_Cycling_FRW_Standing.Bike_Anim_Character_Cycling_FRW_Standing
+[2022.08.11-06.13.49:028][889]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.13.49:032][889]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.13.54:637][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.08.11-06.13.56:974][432]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.11-06.13.57:045][432]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast_PhysicsAsset.BfrwStandingFast_PhysicsAsset
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_002.Ch42_Hair_002
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_002.Ch42_Body_002
+[2022.08.11-06.13.57:627][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.08.11-06.14.09:917][496]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\new\new\char\BfrwStandingFast.fbx)
+[2022.08.11-06.14.09:934][496]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\new\new\char\BfrwStandingFast.fbx
+[2022.08.11-06.14.10:054][496]LogFbx: FBX Scene Loaded Succesfully
+[2022.08.11-06.14.20:231][496]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.08.11-06.14.20:253][496]LogFbx: Warning: Not valid bind pose for Pose (paperBoyJoined.002) - Node paperBoyJoined : The relative matrices do not match
+[2022.08.11-06.14.20:253][496]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.08.11-06.14.20:254][496]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - paperBoyJoined
+[2022.08.11-06.14.20:254][496]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.08.11-06.14.20:261][496]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_002.Ch42_Body_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.14.20:262][496]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 2778ACBA9A7EBF5509A6FA95B796F818A45BF260), compiling. 
+[2022.08.11-06.14.20:289][496]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.14.20:290][496]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\file2.png
+[2022.08.11-06.14.20:290][496]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.14.20:292][496]LogMaterial: Display: Missing cached shadermap for Ch42_Body_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 33EA7B76C6F7F19C1604C0813C1572362FE608A1), compiling. 
+[2022.08.11-06.14.20:295][496]LogMaterial: Display: Material /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_002.Ch42_Hair_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2022.08.11-06.14.20:298][496]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 8F53C3FAAA84558664D13918846379747CD52F29), compiling. 
+[2022.08.11-06.14.20:324][496]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.08.11-06.14.20:325][496]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2022.08.11-06.14.20:325][496]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2022.08.11-06.14.20:325][496]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2022.08.11-06.14.20:325][496]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.08.11-06.14.20:325][496]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.08.11-06.14.20:325][496]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1002_Diffuse.png
+[2022.08.11-06.14.20:326][496]LogFbxMaterialImport: Display: Unable to find Texture file D:\Blends\ppBoy\Animations\new\char\BfrwStandingFast.fbm\Ch42_1001_Normal.png
+[2022.08.11-06.14.20:327][496]LogMaterial: Display: Missing cached shadermap for Ch42_Hair_002 in PCD3D_SM5, Default, SM5 (DDC key hash: 592FBE591D81F4A2D0BA14A9CE23193202E21A80), compiling. 
+[2022.08.11-06.14.20:461][496]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2022.08.11-06.14.22:406][496]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.14.22:406][496]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.14.22:416][496]LogSkeletalMesh: Building Skeletal Mesh BfrwStandingFast...
+[2022.08.11-06.14.23:881][496]LogSkeletalMesh: Section 0: Material=0, 38587 triangles
+[2022.08.11-06.14.23:881][496]LogSkeletalMesh: Section 1: Material=1, 11574 triangles
+[2022.08.11-06.14.23:981][496]LogSkeletalMesh: Built Skeletal Mesh [1.56s] /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast
+[2022.08.11-06.14.25:484][496]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.14.25:488][496]Message dialog closed, result: YesAll, title: Message, text: FAILED TO MERGE BONES:
+
+ This could happen if significant hierarchical changes have been made
+e.g. inserting a bone between nodes.
+Would you like to regenerate the Skeleton from this mesh?
+
+***WARNING: THIS MAY INVALIDATE OR REQUIRE RECOMPRESSION OF ANIMATION DATA.***
+
+[2022.08.11-06.14.25:754][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animation/ThrowR.ThrowR
+[2022.08.11-06.14.27:055][496]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.14.27:059][496]Message dialog closed, result: Yes, title: Message, text: Would you like to merge all SkeletalMeshes using this skeleton to ensure all bones are merged? This will require to load those SkeletalMeshes.
+[2022.08.11-06.14.28:457][496]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.14.28:461][496]Message dialog closed, result: Ok, title: Message, text: Failed to merge SkeletalMesh 'SK_Mannequin'.
+[2022.08.11-06.14.29:245][496]LogSlate: Window 'Message' being destroyed
+[2022.08.11-06.14.29:249][496]Message dialog closed, result: Ok, title: Message, text: Failed to merge SkeletalMesh 'SK_Mannequin_Female'.
+[2022.08.11-06.14.29:285][496]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.08.11-06.14.29:285][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.11-06.14.29:353][496]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Ch42_1001_Normal' was renamed 'Ch42_1001_Normal_ncl1_1' 
+[2022.08.11-06.14.29:583][496]LoadErrors: Error: The Skeleton  UE4_Mannequin_Skeleton is missing bones that SkeletalMesh  SK_Mannequin needs. They will be added now. Please save the Skeleton!
+[2022.08.11-06.14.29:670][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Animation/ThrowR.ThrowR
+[2022.08.11-06.14.35:768][194]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.14.35:772][194]LogSlate: Window 'Message Log' being destroyed
+[2022.08.11-06.14.40:001][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.08.11-06.14.42:758][623]LogSlate: Window 'Delete Assets' being destroyed
+[2022.08.11-06.14.42:832][623]LogUObjectGlobals: Force Deleting 4 Package(s):
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Body_002.Ch42_Body_002
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/Ch42_Hair_002.Ch42_Hair_002
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast.BfrwStandingFast
+	Asset Name: /Game/ThirdPersonBP/Animation/CharacterandBike/BfrwStandingFast_PhysicsAsset.BfrwStandingFast_PhysicsAsset
+[2022.08.11-06.14.43:476][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
