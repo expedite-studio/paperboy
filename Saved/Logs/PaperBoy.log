@@ -1041,3 +1041,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.08.16-06.48.37:177][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.08.16-06.48.37:182][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2022.08.16-06.48.37:234][422]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.08.16-06.50.36:417][256]LogTemp: Repeating last play command: Selected Viewport
+[2022.08.16-06.50.36:424][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.16-06.50.36:424][256]PIE: New page: PIE session: PrototypeMap (Aug 16, 2022, 4:50:36 PM)
+[2022.08.16-06.50.36:461][256]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PrototypeMap
+[2022.08.16-06.50.36:464][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
+[2022.08.16-06.50.36:465][256]LogAIModule: Creating AISystem for world PrototypeMap
+[2022.08.16-06.50.36:465][256]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2022.08.16-06.50.36:465][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PrototypeMap.PrototypeMap to /Game/UEDPIE_0_PrototypeMap.PrototypeMap (0.004766s)
+[2022.08.16-06.50.36:473][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.08.16-06.50.36:474][256]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.08.16-06.50.36:474][256]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.16-06.50.36:474][256]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.16-06.50.36:475][256]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.16-06.50.36:475][256]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.16-06.50.36:475][256]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.16-06.50.36:475][256]LogAudioMixer: Display: Initializing audio mixer.
+[2022.08.16-06.50.36:479][256]LogAudioMixer: Display: 0: FrontLeft
+[2022.08.16-06.50.36:479][256]LogAudioMixer: Display: 1: FrontRight
+[2022.08.16-06.50.36:494][256]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.08.16-06.50.36:495][256]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.16-06.50.36:495][256]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.16-06.50.36:495][256]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.16-06.50.36:495][256]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.08.16-06.50.36:495][256]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.08.16-06.50.36:495][256]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.08.16-06.50.36:496][256]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.08.16-06.50.36:496][256]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.08.16-06.50.36:496][256]LogInit: FAudioDevice initialized.
+[2022.08.16-06.50.36:496][256]LogAudio: Display: Audio Device (ID: 3) registered with world 'PrototypeMap'.
+[2022.08.16-06.50.36:508][256]LogLoad: Game class is 'ELRunGameMode_C'
+[2022.08.16-06.50.36:510][256]LogWorld: Bringing World /Game/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2022.08.16-11.50.36
+[2022.08.16-06.50.36:510][256]LogWorld: Bringing up level for play took: 0.000524
+[2022.08.16-06.50.36:510][256]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.08.16-06.50.36:540][256]PIE: Server logged in
+[2022.08.16-06.50.36:542][256]PIE: Play in editor total start time 0.118 seconds.
+[2022.08.16-06.50.37:358][333]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.39:483][561]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.39:901][611]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.40:193][646]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.40:369][667]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.40:586][693]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.40:745][712]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.40:916][732]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.41:302][775]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.41:587][808]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.41:833][835]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.42:079][862]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.42:386][891]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.50.42:680][917]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-06.59.26:074][ 83]LogProjectileMovement: Warning: Bullet_BP_C_2 is outside the world bounds!
+[2022.08.16-06.59.26:673][140]LogProjectileMovement: Warning: Bullet_BP_C_3 is outside the world bounds!
+[2022.08.16-06.59.27:524][222]LogProjectileMovement: Warning: Bullet_BP_C_7 is outside the world bounds!
+[2022.08.16-06.59.28:295][295]LogProjectileMovement: Warning: Bullet_BP_C_8 is outside the world bounds!
+[2022.08.16-06.59.29:406][399]LogProjectileMovement: Warning: Bullet_BP_C_16 is outside the world bounds!
+[2022.08.16-06.59.29:609][418]LogProjectileMovement: Warning: Bullet_BP_C_17 is outside the world bounds!
+[2022.08.16-07.17.25:564][368]LogAnimMontage: Warning: Playing a Montage (ThrowR_Montage23) for the wrong Skeleton (UE4_Mannequin_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.08.16-07.17.27:568][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.16-07.17.27:568][554]LogWorld: BeginTearingDown for /Game/UEDPIE_0_PrototypeMap
+[2022.08.16-07.17.27:568][554]LogWorld: UWorld::CleanupWorld for PrototypeMap, bSessionEnded=true, bCleanupResources=true
+[2022.08.16-07.17.27:571][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.16-07.17.27:579][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.16-07.17.27:582][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.16-07.17.27:589][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.16-07.17.27:589][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.16-07.17.27:590][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.08.16-07.17.27:597][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.08.16-07.17.27:642][557]LogPlayLevel: Display: Destroying online subsystem :Context_4
