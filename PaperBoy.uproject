@@ -7,6 +7,14 @@
 		{
 			"Name": "NeuronLiveLink",
 			"Enabled": true
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
 		}
 	]
 }
