@@ -2993,3 +2993,556 @@ Continuing with the rename may require changes to fix references in code or proj
 [2022.09.06-09.29.53:860][187]LogSlate: Window 'Bullet_BP' being destroyed
 [2022.09.06-09.29.53:870][187]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
 [2022.09.06-09.29.53:870][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.38.00:483][167]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.06-09.38.00:496][167]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.06-09.38.00:504][168]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.06-09.38.06:142][845]LogContentBrowser: Attempting asset rename: NewFolder -> Housing
+[2022.09.06-09.38.06:142][845]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.06-09.38.12:789][204]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House1/House.fbx)
+[2022.09.06-09.38.13:027][204]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\PaperBoy\House1/House.fbx
+[2022.09.06-09.38.13:095][204]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.06-09.38.47:911][204]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.06-09.38.48:030][204]LogFbxMaterialImport: Display: Unable to find Texture file E:\PROJECTS\SuburbianHouse\Textures\T_Atlas_basecolor.png
+[2022.09.06-09.38.48:031][204]LogFbxMaterialImport: Display: Unable to find Texture file E:\PROJECTS\SuburbianHouse\Textures\T_Atlas_roughness.png
+[2022.09.06-09.38.48:064][204]LogMaterial: Display: Missing cached shadermap for atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 724B4620206002587B2DC2A0A9C7AE2F0C5AE08A), compiling. 
+[2022.09.06-09.38.48:084][204]LogFbx: Display: Triangulating static mesh House
+[2022.09.06-09.38.48:371][204]LogStaticMesh: Display: Building static mesh House...
+[2022.09.06-09.38.48:471][204]LogStaticMesh: Adjacency [0.00s], tris: 3875, UVs 2
+[2022.09.06-09.38.48:484][204]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2022.09.06-09.38.48:486][204]LogStaticMesh: Leaves [0.00s]
+[2022.09.06-09.38.48:486][204]LogStaticMesh: Num clusters 31. Error 0.0000, 0.0000, 0.0000
+[2022.09.06-09.38.48:687][204]LogStaticMesh: Num clusters 16. Error 9.3358, 9.3358, 9.3358
+[2022.09.06-09.38.48:732][204]LogStaticMesh: Num clusters 8. Error 19.9267, 19.9267, 19.9267
+[2022.09.06-09.38.48:754][204]LogStaticMesh: Num clusters 4. Error 36.5300, 36.5300, 36.5300
+[2022.09.06-09.38.48:762][204]LogStaticMesh: Num clusters 2. Error 63.0901, 63.0901, 63.0901
+[2022.09.06-09.38.48:766][204]LogStaticMesh: Num clusters 1. Error 72.3259, 72.3259, 72.3259
+[2022.09.06-09.38.48:766][204]LogStaticMesh: Reduce [0.28s]
+[2022.09.06-09.38.48:876][204]LogStaticMesh: Fallback 0/1 [0.11s], num tris: 1623
+[2022.09.06-09.38.48:886][204]LogStaticMesh: ConstrainClusters:
+[2022.09.06-09.38.48:886][204]LogStaticMesh:   Input: 62 Clusters, 7745 Triangles and 14951 Vertices
+[2022.09.06-09.38.48:886][204]LogStaticMesh:   Output without splits: 62 Clusters, 7745 Triangles and 14951 Vertices
+[2022.09.06-09.38.48:886][204]LogStaticMesh:   Output with splits: 78 Clusters, 7745 Triangles and 14965 Vertices
+[2022.09.06-09.38.48:887][204]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 78, Slow Path Clusters: 0, 1 Material: 78, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2022.09.06-09.38.48:908][204]LogStaticMesh: WritePages:
+[2022.09.06-09.38.48:908][204]LogStaticMesh:   Root: GPU size: 31884 bytes. 1 Pages. 31884.000 bytes per page (97.302% utilization).
+[2022.09.06-09.38.48:908][204]LogStaticMesh:   Streaming: GPU size: 209096 bytes. 2 Pages. 104548.000 bytes per page (79.764% utilization).
+[2022.09.06-09.38.48:908][204]LogStaticMesh:   Page data disk size: 207640 bytes. Fixup data size: 552 bytes.
+[2022.09.06-09.38.48:908][204]LogStaticMesh:   Total GPU size: 240980 bytes, Total disk size: 208192 bytes.
+[2022.09.06-09.38.48:908][204]LogStaticMesh: Encode [0.03s]
+[2022.09.06-09.38.48:909][204]LogStaticMesh: Imposter [0.00s]
+[2022.09.06-09.38.48:909][204]LogStaticMesh: Nanite build [0.42s]
+
+[2022.09.06-09.38.48:918][204]LogStaticMesh: Built static mesh [0.55s] /Game/ThirdPersonBP/Assets/Housing/House1/House.House
+[2022.09.06-09.38.49:032][204]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.06-09.38.49:402][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House1/T_Atlas_basecolor.png)
+[2022.09.06-09.38.49:536][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House1/T_Atlas_metallic.png)
+[2022.09.06-09.38.49:594][204]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor.T_Atlas_basecolor (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.38.49:609][204]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic.T_Atlas_metallic (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.38.49:609][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House1/T_Atlas_normal.png)
+[2022.09.06-09.38.49:856][204]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal.T_Atlas_normal (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.38.49:862][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House1/T_Atlas_roughness.png)
+[2022.09.06-09.38.49:988][204]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness.T_Atlas_roughness (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.38.51:843][349]LogShaderCompilers: Display: ================================================
+[2022.09.06-09.38.51:843][349]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Total job queries 241, among them cache hits 0 (0.00%)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Tracking 238 distinct input hashes that result in 173 distinct outputs (72.69%)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: RAM used: 0.47 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Shaders Compiled: 239
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Jobs assigned 241, completed 238 (98.76%)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Average time worker was idle: 266.68 s
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Time job spent in pending queue: average 9.43 s, longest 28.20 s
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Job execution time: average 8.03 s, max 13.66 s
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Job life time (pending + execution): average 17.59 s, max 29.71
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 65.32 s
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 5.13 jobs/batch
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Average processing rate: 3.64 jobs/sec
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Effective parallelization: 3.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 1.39 sec, max 2.22 sec, min 0.96 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   10 times, average 1.18 sec, max 1.59 sec, min 0.95 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   10 times, average 1.16 sec, max 1.50 sec, min 0.89 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    4 times, average 1.15 sec, max 1.33 sec, min 0.99 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   11 times, average 1.15 sec, max 1.75 sec, min 0.64 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.46% of total time (compiled   10 times, average 1.39 sec, max 2.22 sec, min 0.96 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.86% of total time (compiled   11 times, average 1.15 sec, max 1.75 sec, min 0.64 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.49% of total time (compiled   10 times, average 1.18 sec, max 1.59 sec, min 0.95 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.40% of total time (compiled   10 times, average 1.16 sec, max 1.50 sec, min 0.89 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.22% of total time (compiled   10 times, average 1.13 sec, max 1.57 sec, min 0.79 sec)
+[2022.09.06-09.38.51:844][349]LogShaderCompilers: Display: ================================================
+[2022.09.06-09.38.53:342][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.09.06-09.38.53:344][488]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Levels/Main_Menu_Level' took 0.051
+[2022.09.06-09.38.53:359][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Assets/Housing/House1/House] ([1] browsable assets)...
+[2022.09.06-09.38.53:369][488]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPersonBP/Assets/Housing/House1/House.House]
+[2022.09.06-09.38.53:369][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Assets/Housing/House1/House]
+[2022.09.06-09.38.53:402][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/House_Auto2
+[2022.09.06-09.38.53:403][488]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/House_Auto27385129F4E060F9A8FE8DCAC2DA03A85.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/House_Auto2.uasset'
+[2022.09.06-09.38.53:403][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor] ([1] browsable assets)...
+[2022.09.06-09.38.53:404][488]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor.T_Atlas_basecolor]
+[2022.09.06-09.38.53:404][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor]
+[2022.09.06-09.38.53:416][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor_Auto2
+[2022.09.06-09.38.53:416][488]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/T_Atlas_basecolor_Auto2A900BE88444A0C9085BB76B8C7A6B02B.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_basecolor_Auto2.uasset'
+[2022.09.06-09.38.53:417][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness] ([1] browsable assets)...
+[2022.09.06-09.38.53:418][488]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness.T_Atlas_roughness]
+[2022.09.06-09.38.53:418][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness]
+[2022.09.06-09.38.53:422][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness_Auto2
+[2022.09.06-09.38.53:422][488]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/T_Atlas_roughness_Auto2E763B7AE4481D9904931FFB4137DBF55.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_roughness_Auto2.uasset'
+[2022.09.06-09.38.53:423][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic] ([1] browsable assets)...
+[2022.09.06-09.38.53:424][488]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic.T_Atlas_metallic]
+[2022.09.06-09.38.53:424][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic]
+[2022.09.06-09.38.53:435][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic_Auto2
+[2022.09.06-09.38.53:435][488]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/T_Atlas_metallic_Auto2892480594D8DA1EC7D91FB8EC33E3F5A.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_metallic_Auto2.uasset'
+[2022.09.06-09.38.53:436][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal] ([1] browsable assets)...
+[2022.09.06-09.38.53:437][488]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal.T_Atlas_normal]
+[2022.09.06-09.38.53:437][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal]
+[2022.09.06-09.38.53:449][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal_Auto2
+[2022.09.06-09.38.53:449][488]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/T_Atlas_normal_Auto25B30CBD04112794398FB84AA165776D1.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/ThirdPersonBP/Assets/Housing/House1/T_Atlas_normal_Auto2.uasset'
+[2022.09.06-09.38.53:450][488]LogFileHelpers: Auto-saving content packages took 0.106
+[2022.09.06-09.38.55:268][705]LogSlate: Window 'Message Log' being destroyed
+[2022.09.06-09.38.55:274][705]LogSlate: Window 'Message Log' being destroyed
+[2022.09.06-09.39.00:872][263]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonBP/Assets/Housing/House1/House.House
+[2022.09.06-09.39.01:045][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.39.01:585][263]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.09.06-09.39.04:537][404]LogSlate: Window 'House' being destroyed
+[2022.09.06-09.39.04:562][404]LogSlate: Window 'House' being destroyed
+[2022.09.06-09.39.04:597][404]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2022.09.06-09.39.04:597][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.39.06:175][558]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPersonBP/Assets/Housing/House1/atlas.atlas
+[2022.09.06-09.39.06:242][558]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 04377A880FD5E7B524B75EEC09F3CC08DC3EA53D), compiling. 
+[2022.09.06-09.39.06:352][558]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.39.06:563][558]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: CB7C89F47905294C1BCAF1E56CF45CB0B487601B), compiling. 
+[2022.09.06-09.39.06:587][558]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 08F7A8EC1FE1321936B75C26CE5C035994DB84E6), compiling. 
+[2022.09.06-09.39.06:600][558]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 47477A51BDC20A83379A63871F1256C034188BD2), compiling. 
+[2022.09.06-09.39.06:635][558]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.39.06:635][558]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.39.06:635][558]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.39.06:652][558]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.09.06-09.39.06:899][560]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.39.06:899][560]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.39.06:899][560]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.39.11:400][905]LogViewport: Scene viewport resized to 234x247, mode Windowed.
+[2022.09.06-09.39.17:212][231]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 99EE9B27CB7C2358EA4C33E6843321B0E64670F7), compiling. 
+[2022.09.06-09.39.17:215][231]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E60CF5F32AF77E2BC91790460305CB9F22D8DA94), compiling. 
+[2022.09.06-09.39.17:218][231]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 72C32BB90914D06B9ECCA3A873DF429472B39AE1), compiling. 
+[2022.09.06-09.39.17:220][231]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F40FEBB7C0CC7B1CF4678389622A33BE99EE86D2), compiling. 
+[2022.09.06-09.39.17:224][231]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.39.17:224][231]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.39.17:224][231]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.39.17:318][233]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.39.17:318][233]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.39.17:318][233]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.39.22:318][623]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 60CE568BE693161787B526D3CE3FC714E1D79A13), compiling. 
+[2022.09.06-09.39.22:321][623]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 12AEFBFBC13C86711CCAB5885850043A06847842), compiling. 
+[2022.09.06-09.39.22:325][623]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.39.22:325][623]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.22:325][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.22:325][623]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.39.23:274][672]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.06-09.39.23:274][672]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.23:274][672]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.23:274][672]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.39.23:783][700]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.39.23:783][700]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.23:783][700]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.23:783][700]MaterialEditorStats: Shader Count: 3
+[2022.09.06-09.39.26:148][892]LogMaterialEditor: Saving and Compiling material atlas
+[2022.09.06-09.39.26:689][892]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 9AE3AE021887E9811545CBB5BC5396F05BC13FB9), compiling. 
+[2022.09.06-09.39.26:702][892]LogMaterial: Display: Missing cached shadermap for atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 26C0CCA5C3CA4942A3FD22D55830BA55AAF0717C), compiling. 
+[2022.09.06-09.39.26:779][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.09.06-09.39.27:975][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.09.06-09.39.31:185][892]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.09.06-09.39.31:185][892]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049973s
+[2022.09.06-09.39.32:109][892]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003020s (0.971916s overbudget)
+[2022.09.06-09.39.32:127][892]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House1/atlas
+[2022.09.06-09.39.32:127][892]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/atlas1DCB72C64FBCCCC92CCAFCBAB8D0ABD0.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House1/atlas.uasset'
+[2022.09.06-09.39.32:145][892]AssetCheck: New page: Asset Save: atlas
+[2022.09.06-09.39.32:145][892]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/Assets/Housing/House1/atlas.atlas
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.32:159][892]MaterialEditorStats: Shader Count: 16
+[2022.09.06-09.39.37:254][272]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonBP/Assets/Housing/House1/House.House
+[2022.09.06-09.39.37:265][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.39.37:636][272]LogViewport: Scene viewport resized to 881x498, mode Windowed.
+[2022.09.06-09.39.39:919][425]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.09.06-09.39.46:884][771]LogViewport: Scene viewport resized to 881x498, mode Windowed.
+[2022.09.06-09.39.55:905][270]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 339DD989B7891616BB707874127038219317FC5B), compiling. 
+[2022.09.06-09.39.55:908][270]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7CFE9EB8E616BAA76702618008E398268088E14F), compiling. 
+[2022.09.06-09.39.55:910][270]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 8159CB5F1436FA2F38D93D4B1344E154B9FD904A), compiling. 
+[2022.09.06-09.39.55:913][270]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0DA3BBB55471FF875833909F7239BA2DA79C28EC), compiling. 
+[2022.09.06-09.39.55:915][270]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B8798DBB9F50784F5B7A7808732A7FFE16826753), compiling. 
+[2022.09.06-09.39.55:917][270]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2A6B14520BA71AC8A0B196ADDC4665DDF8F6F5F9), compiling. 
+[2022.09.06-09.39.55:922][270]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.39.55:922][270]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.55:922][270]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.55:922][270]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.39.55:973][272]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.39.55:973][272]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.39.55:973][272]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.39.55:974][272]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.40.00:491][493]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: CED828C6F191B5EF859536CC0654E5CFE072A538), compiling. 
+[2022.09.06-09.40.00:495][493]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BA572514B51EC4741D6B4D11A06FA9A0AE9FF34A), compiling. 
+[2022.09.06-09.40.00:497][493]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A2DE991FF21536138322C11E0E0CB54FC7DCFACD), compiling. 
+[2022.09.06-09.40.00:498][493]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E6F89F9568477EED1458038C04BBFBC3D6ABFF1D), compiling. 
+[2022.09.06-09.40.00:500][493]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 97AEDCDFCA754EB23E7F6BCB6DFC0BDC799CBEBD), compiling. 
+[2022.09.06-09.40.00:503][493]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 99C0BFBFC714D4984227E4F1E4E262647005AA06), compiling. 
+[2022.09.06-09.40.00:509][493]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.40.00:509][493]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.40.00:509][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.00:509][493]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.40.00:560][495]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.40.00:560][495]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.40.00:560][495]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.00:560][495]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.40.09:268][960]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: BF013D3EDF46D173E0DE93EDE96A76D5709C036D), compiling. 
+[2022.09.06-09.40.09:271][960]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B51F9DA3A419AF1DE9D5220AA0D9D6F06D2DF66F), compiling. 
+[2022.09.06-09.40.09:277][960]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.40.09:277][960]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.40.09:277][960]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.09:277][960]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.40.10:151][994]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.40.10:151][994]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.40.10:151][994]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.10:151][994]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.40.10:563][ 10]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.06-09.40.10:563][ 10]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.40.10:563][ 10]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.10:563][ 10]MaterialEditorStats: Shader Count: 3
+[2022.09.06-09.40.21:528][633]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: BE6872A1096CCC8CFF6ADB4E0342CF31D2058DD0), compiling. 
+[2022.09.06-09.40.21:531][633]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: D9C2A4C20800368D776E8398447C741C436CA5C8), compiling. 
+[2022.09.06-09.40.21:536][633]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.40.21:536][633]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.40.21:536][633]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.21:536][633]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.40.22:317][665]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.40.22:317][665]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.40.22:317][665]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.22:317][665]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.40.22:904][688]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.06-09.40.22:904][688]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.40.22:904][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.22:904][688]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.40.24:147][745]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: B0B38A87C05C2071354776E946D6EB3EDCB2CF41), compiling. 
+[2022.09.06-09.40.24:150][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5A138B92CBA03C169EEC583F5BAA775B00B2314E), compiling. 
+[2022.09.06-09.40.24:152][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ED6FCB5DE3862E2124E685C92EEAC235F026B091), compiling. 
+[2022.09.06-09.40.24:154][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A37D9DFD3D3CEF55A4690B73D289B37E83D9ACEE), compiling. 
+[2022.09.06-09.40.24:156][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 751AB9D1D79DEBC7513C06A603CA944DEBD055A1), compiling. 
+[2022.09.06-09.40.24:158][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: D99B58725D23C5DF75CDE65300D81ED399783BAD), compiling. 
+[2022.09.06-09.40.24:160][745]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: EE1ECC452F944B62DEFF088A99F3F2A8F64EC3CF), compiling. 
+[2022.09.06-09.40.24:163][745]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.40.24:163][745]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.40.24:163][745]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.24:163][745]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.40.24:217][747]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.06-09.40.24:217][747]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.40.24:217][747]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.24:217][747]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.40.33:035][226]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: EFA7FA8D2C06CCC2EB2AAF8B1D2B285BCDEFFD31), compiling. 
+[2022.09.06-09.40.33:038][226]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 80EFB355073ED06E8E387B930A3B0F34E89C1BB5), compiling. 
+[2022.09.06-09.40.33:043][226]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.40.33:043][226]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.40.33:043][226]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.33:043][226]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.40.33:785][256]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.40.33:785][256]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.40.33:785][256]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.33:786][256]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.40.34:403][281]MaterialEditorStats: Texture samplers: 6/16
+[2022.09.06-09.40.34:403][281]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.40.34:403][281]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.34:403][281]MaterialEditorStats: Shader Count: 3
+[2022.09.06-09.40.36:610][397]LogMaterialEditor: Saving and Compiling material atlas
+[2022.09.06-09.40.37:091][397]LogMaterial: Display: Missing cached shadermap for Preview:atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 7238ECE0C1F539BBDDD1BCCDF246D272E693C742), compiling. 
+[2022.09.06-09.40.37:105][397]LogMaterial: Display: Missing cached shadermap for atlas in PCD3D_SM5, Default, SM5 (DDC key hash: EA6586D814058C3C66195FEB4EDE94BB4BDB5AD8), compiling. 
+[2022.09.06-09.40.37:181][397]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.09.06-09.40.38:361][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.09.06-09.40.40:515][397]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.06-09.40.41:680][397]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003021s (1.210085s overbudget)
+[2022.09.06-09.40.41:706][397]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House1/atlas
+[2022.09.06-09.40.41:706][397]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/atlasFBF245DE4F2146E4D4E8CEAD96F154E2.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House1/atlas.uasset'
+[2022.09.06-09.40.41:718][397]AssetCheck: New page: Asset Save: atlas
+[2022.09.06-09.40.41:719][397]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/Assets/Housing/House1/atlas.atlas
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: Base pass shader: 136 instructions
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: Texture samplers: 7/16
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.40.41:720][397]MaterialEditorStats: Shader Count: 16
+[2022.09.06-09.40.54:644][315]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House1/House
+[2022.09.06-09.40.54:644][315]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/House4B1E8CBB48DC41732C0C40878890AD21.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House1/House.uasset'
+[2022.09.06-09.40.54:659][315]AssetCheck: New page: Asset Save: House
+[2022.09.06-09.40.54:659][315]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonBP/Assets/Housing/House1/House.House
+[2022.09.06-09.40.55:530][371]LogMaterialEditor: Saving and Compiling material atlas
+[2022.09.06-09.40.55:608][371]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House1/atlas
+[2022.09.06-09.40.55:608][371]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/atlas44A8E2BB4864331C7D623EB836FA3C7D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House1/atlas.uasset'
+[2022.09.06-09.40.55:620][371]AssetCheck: New page: Asset Save: atlas
+[2022.09.06-09.40.55:620][371]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/Assets/Housing/House1/atlas.atlas
+[2022.09.06-09.40.57:084][452]LogSlate: Window 'House' being destroyed
+[2022.09.06-09.40.57:090][452]LogSlate: Window 'House' being destroyed
+[2022.09.06-09.40.57:153][452]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2022.09.06-09.40.57:153][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.40.57:207][452]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2022.09.06-09.40.57:207][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.41.03:744][156]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile.BP_FloorTile
+[2022.09.06-09.41.03:744][156]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.41.06:057][359]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2022.09.06-09.41.21:972][734]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House2/House2.fbx)
+[2022.09.06-09.41.21:980][734]LogFbx: Loading FBX Scene from C:\Users\SSD 120\Downloads\PaperBoy\House2/House2.fbx
+[2022.09.06-09.41.21:988][734]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.06-09.41.25:867][734]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.06-09.41.25:883][734]LogFbxMaterialImport: Display: Unable to find Texture file E:\PROJECTS\SuburbianHouse\Textures\T_Atlas_basecolor.png
+[2022.09.06-09.41.25:884][734]LogFbxMaterialImport: Display: Unable to find Texture file E:\PROJECTS\SuburbianHouse\Textures\T_Atlas_roughness.png
+[2022.09.06-09.41.25:887][734]LogMaterial: Display: Missing cached shadermap for atlas in PCD3D_SM5, Default, SM5 (DDC key hash: 3C9A989EB8B1BC5A5A88ADD0A12EF078AD440442), compiling. 
+[2022.09.06-09.41.25:895][734]LogFbx: Display: Triangulating static mesh House
+[2022.09.06-09.41.25:991][734]LogStaticMesh: Display: Building static mesh House2...
+[2022.09.06-09.41.26:068][734]LogStaticMesh: Adjacency [0.00s], tris: 3875, UVs 2
+[2022.09.06-09.41.26:082][734]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2022.09.06-09.41.26:083][734]LogStaticMesh: Leaves [0.00s]
+[2022.09.06-09.41.26:083][734]LogStaticMesh: Num clusters 31. Error 0.0000, 0.0000, 0.0000
+[2022.09.06-09.41.26:283][734]LogStaticMesh: Num clusters 16. Error 9.3358, 9.3358, 9.3358
+[2022.09.06-09.41.26:328][734]LogStaticMesh: Num clusters 8. Error 19.9267, 19.9267, 19.9267
+[2022.09.06-09.41.26:348][734]LogStaticMesh: Num clusters 4. Error 36.5300, 36.5300, 36.5300
+[2022.09.06-09.41.26:357][734]LogStaticMesh: Num clusters 2. Error 63.0901, 63.0901, 63.0901
+[2022.09.06-09.41.26:361][734]LogStaticMesh: Num clusters 1. Error 72.3259, 72.3259, 72.3259
+[2022.09.06-09.41.26:361][734]LogStaticMesh: Reduce [0.28s]
+[2022.09.06-09.41.26:475][734]LogStaticMesh: Fallback 0/1 [0.11s], num tris: 1623
+[2022.09.06-09.41.26:484][734]LogStaticMesh: ConstrainClusters:
+[2022.09.06-09.41.26:484][734]LogStaticMesh:   Input: 62 Clusters, 7745 Triangles and 14951 Vertices
+[2022.09.06-09.41.26:484][734]LogStaticMesh:   Output without splits: 62 Clusters, 7745 Triangles and 14951 Vertices
+[2022.09.06-09.41.26:484][734]LogStaticMesh:   Output with splits: 78 Clusters, 7745 Triangles and 14965 Vertices
+[2022.09.06-09.41.26:484][734]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 78, Slow Path Clusters: 0, 1 Material: 78, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2022.09.06-09.41.26:490][734]LogStaticMesh: WritePages:
+[2022.09.06-09.41.26:490][734]LogStaticMesh:   Root: GPU size: 31884 bytes. 1 Pages. 31884.000 bytes per page (97.302% utilization).
+[2022.09.06-09.41.26:490][734]LogStaticMesh:   Streaming: GPU size: 209096 bytes. 2 Pages. 104548.000 bytes per page (79.764% utilization).
+[2022.09.06-09.41.26:490][734]LogStaticMesh:   Page data disk size: 207640 bytes. Fixup data size: 552 bytes.
+[2022.09.06-09.41.26:490][734]LogStaticMesh:   Total GPU size: 240980 bytes, Total disk size: 208192 bytes.
+[2022.09.06-09.41.26:490][734]LogStaticMesh: Encode [0.01s]
+[2022.09.06-09.41.26:490][734]LogStaticMesh: Imposter [0.00s]
+[2022.09.06-09.41.26:490][734]LogStaticMesh: Nanite build [0.41s]
+
+[2022.09.06-09.41.26:500][734]LogStaticMesh: Built static mesh [0.51s] /Game/ThirdPersonBP/Assets/Housing/House2/House2.House2
+[2022.09.06-09.41.26:532][734]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.06-09.41.26:968][734]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House2/House_color.png)
+[2022.09.06-09.41.27:008][734]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House2/House_color.House_color (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.41.27:008][734]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House2/House_metallic.png)
+[2022.09.06-09.41.27:039][734]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House2/House_normal.png)
+[2022.09.06-09.41.27:093][734]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House2/House_metallic.House_metallic (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.41.27:093][734]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House2/House_normal.House_normal (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.41.27:093][734]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\SSD 120\Downloads\PaperBoy\House2/House_roughness.png)
+[2022.09.06-09.41.27:173][734]LogTexture: Display: Building textures: /Game/ThirdPersonBP/Assets/Housing/House2/House_roughness.House_roughness (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.09.06-09.41.28:611][848]LogSlate: Window 'Message Log' being destroyed
+[2022.09.06-09.41.28:616][848]LogSlate: Window 'Message Log' being destroyed
+[2022.09.06-09.41.31:382][122]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ThirdPersonBP/Assets/Housing/House2/atlas.atlas
+[2022.09.06-09.41.31:385][122]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EA576959BB9BDCE5A4AD695A91232265DD7F79BB), compiling. 
+[2022.09.06-09.41.31:405][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.41.31:503][122]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DB6948F80A79C429F0751C406B7D5C7DBBB77B3C), compiling. 
+[2022.09.06-09.41.31:509][122]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3191FE6DC09292E2FA694EE186D5615B410276F1), compiling. 
+[2022.09.06-09.41.31:512][122]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4851AF9A7DCFAF35F14FA1AB647B000113FC170A), compiling. 
+[2022.09.06-09.41.31:542][122]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.31:542][122]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.31:542][122]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.31:550][122]LogViewport: Scene viewport resized to 234x247, mode Windowed.
+[2022.09.06-09.41.33:271][203]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.33:271][203]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.33:271][203]MaterialEditorStats: Shader Count: 3
+[2022.09.06-09.41.41:358][798]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F6740CBB3FBC12DB7801D539870152EB73EC3EB0), compiling. 
+[2022.09.06-09.41.41:362][798]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.41:362][798]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.41:362][798]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.42:931][889]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.42:931][889]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.42:931][889]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.41.45:300][ 73]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A5AA547D9058F2E23C889DB8D8A4811F3EA851F2), compiling. 
+[2022.09.06-09.41.45:303][ 73]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 341C7AC7F3B323698F2D4CB0CD04E4080221886E), compiling. 
+[2022.09.06-09.41.45:305][ 73]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C262740A3E3479B82254E534101BD243F9BAF53F), compiling. 
+[2022.09.06-09.41.45:308][ 73]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.45:308][ 73]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.45:308][ 73]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.45:360][ 75]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.45:361][ 75]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.45:361][ 75]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.41.50:967][511]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F454A658A254A3AA84B4629BD0A63EA64CAFC0F8), compiling. 
+[2022.09.06-09.41.50:970][511]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: B85EEF95CBAEE2DA52AD452B9DF97D1B8ED066E6), compiling. 
+[2022.09.06-09.41.50:972][511]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E286F2286FD8BBF4C1DFA4CEE60F18AF12CE66F3), compiling. 
+[2022.09.06-09.41.50:974][511]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 37B0D93A47A721085C03F72A552357C200503389), compiling. 
+[2022.09.06-09.41.50:979][511]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.50:979][511]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.50:979][511]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.51:031][513]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.51:031][513]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.51:031][513]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.41.52:640][615]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 39332B85BF22B30B675E41F7DC448DC9C0C38A81), compiling. 
+[2022.09.06-09.41.52:642][615]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 037FDCFAF0CFAE83AEE7229A186B71B15637E308), compiling. 
+[2022.09.06-09.41.52:645][615]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 357CD1B07ABD3FCD0B70107D87AE7835B5560185), compiling. 
+[2022.09.06-09.41.52:647][615]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: C08A81C58C0ED911B1280FF9585A19D4556516DB), compiling. 
+[2022.09.06-09.41.52:649][615]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F094FC0E1D116B65E4B121558792C38EFA27DF18), compiling. 
+[2022.09.06-09.41.52:652][615]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.52:652][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.52:652][615]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: ================================================
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Total job queries 486, among them cache hits 167 (34.36%)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Tracking 299 distinct input hashes that result in 194 distinct outputs (64.88%)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: RAM used: 0.52 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.06%
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Shaders Compiled: 275
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Jobs assigned 299, completed 299 (100.00%)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Average time worker was idle: 119.62 s
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Time job spent in pending queue: average 7.68 s, longest 28.20 s
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Job execution time: average 6.64 s, max 13.66 s
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Job life time (pending + execution): average 14.33 s, max 29.71
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 89.79 s
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Jobs were issued in 105 batches (only local compilation was used), average 2.85 jobs/batch
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Average processing rate: 3.33 jobs/sec
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Effective parallelization: 3.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   12 times, average 1.35 sec, max 2.22 sec, min 0.96 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   12 times, average 1.17 sec, max 1.59 sec, min 0.95 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   12 times, average 1.16 sec, max 1.50 sec, min 0.89 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    4 times, average 1.15 sec, max 1.33 sec, min 0.99 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   12 times, average 1.11 sec, max 1.57 sec, min 0.79 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.78% of total time (compiled   23 times, average 1.05 sec, max 1.41 sec, min 0.70 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.47% of total time (compiled   23 times, average 1.02 sec, max 1.53 sec, min 0.73 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.93% of total time (compiled   18 times, average 1.06 sec, max 1.35 sec, min 0.76 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.86% of total time (compiled   12 times, average 1.35 sec, max 2.22 sec, min 0.96 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.13% of total time (compiled   13 times, average 1.09 sec, max 1.75 sec, min 0.64 sec)
+[2022.09.06-09.41.52:685][616]LogShaderCompilers: Display: ================================================
+[2022.09.06-09.41.52:704][617]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.52:704][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.52:704][617]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.41.54:895][746]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2F5BEC96C5E91BDB7F776E895A11CEECAFAB2EE8), compiling. 
+[2022.09.06-09.41.54:898][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5CB6739687E6B28DA94CF2FA7ECF5057AF6E876F), compiling. 
+[2022.09.06-09.41.54:900][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2C98037A7269EAD912DF96B59D4A663CB9F6E445), compiling. 
+[2022.09.06-09.41.54:902][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0C0F759257FE470B2912F0E597EEDC8AD31AD7A2), compiling. 
+[2022.09.06-09.41.54:904][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F1CEF6A22B543D63294A35620288CA7084C481B6), compiling. 
+[2022.09.06-09.41.54:905][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F45E5A946061E73196AD0C89737138802381D95), compiling. 
+[2022.09.06-09.41.54:909][746]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.54:909][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.54:909][746]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.54:960][748]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.41.54:960][748]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.09.06-09.41.54:960][748]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.41.58:173][975]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 50310A0BA5205186A58D08604C78D825EA0FD3A7), compiling. 
+[2022.09.06-09.41.58:176][975]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 82786AB78C41705579E493224533EFB1225FE1E0), compiling. 
+[2022.09.06-09.41.58:180][975]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.41.58:180][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.41.58:180][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.41.58:180][975]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.41.58:925][ 19]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.06-09.41.58:925][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.41.58:925][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.41.58:925][ 19]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.41.59:530][ 53]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.41.59:530][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.06-09.41.59:530][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.41.59:530][ 53]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.01:368][189]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8E7AD18497AB03563E0D8E51D3EBE8872AB8E110), compiling. 
+[2022.09.06-09.42.01:370][189]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4ACEEE7C0761D5520AC8CCF94B4404333AE7BDDB), compiling. 
+[2022.09.06-09.42.01:374][189]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.42.01:374][189]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.42.01:374][189]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.01:374][189]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.42.02:054][224]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.42.02:054][224]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.42.02:054][224]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.02:054][224]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.42.02:644][257]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.06-09.42.02:644][257]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.09.06-09.42.02:644][257]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.02:644][257]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.05:816][501]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6C2CAA2960FFED0E79D97FCFD0730516E36B63C3), compiling. 
+[2022.09.06-09.42.05:819][501]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 671D48A6AE9D305947772545E9389BB90BFDEF11), compiling. 
+[2022.09.06-09.42.05:823][501]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.42.05:823][501]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.05:823][501]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.05:823][501]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.42.06:500][536]MaterialEditorStats: Texture samplers: 2/16
+[2022.09.06-09.42.06:500][536]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.06:500][536]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.06:500][536]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.42.07:109][572]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.06-09.42.07:109][572]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.07:109][572]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.07:109][572]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.09:493][758]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 61B9A26C99E2A9937A5B36BB26260280BB4C34FC), compiling. 
+[2022.09.06-09.42.09:496][758]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5B2509C2D757660E92E45C143CFD34E39B10D341), compiling. 
+[2022.09.06-09.42.09:500][758]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.42.09:500][758]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.09:500][758]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.09:500][758]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.42.10:099][790]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.42.10:099][790]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.10:099][790]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.10:099][790]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.42.10:786][829]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.06-09.42.10:786][829]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.10:786][829]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.10:786][829]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.12:204][936]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A7272255CCBA2E5D6ADF1D228C4F1553DFFF8139), compiling. 
+[2022.09.06-09.42.12:208][936]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.42.12:208][936]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.12:208][936]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.12:208][936]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.42.12:870][970]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.42.12:870][970]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.12:870][970]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.12:870][970]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.42.13:468][  3]MaterialEditorStats: Texture samplers: 5/16
+[2022.09.06-09.42.13:469][  3]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.09.06-09.42.13:469][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.13:469][  3]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.16:304][223]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 99D40B0730BB30DCFFD6475341BA3E0096236468), compiling. 
+[2022.09.06-09.42.16:307][223]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 1D8B4F76A80CDB4AFB18C58E116A05DCF045B5F2), compiling. 
+[2022.09.06-09.42.16:312][223]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.06-09.42.16:312][223]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.42.16:312][223]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.16:312][223]MaterialEditorStats: Shader Count: 0
+[2022.09.06-09.42.16:989][260]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.06-09.42.16:989][260]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.42.16:989][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.16:989][260]MaterialEditorStats: Shader Count: 1
+[2022.09.06-09.42.17:596][295]MaterialEditorStats: Texture samplers: 6/16
+[2022.09.06-09.42.17:596][295]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.42.17:596][295]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.17:596][295]MaterialEditorStats: Shader Count: 4
+[2022.09.06-09.42.18:768][383]LogMaterialEditor: Saving and Compiling material atlas
+[2022.09.06-09.42.19:238][383]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 29AF0DF4D4655F8D56FDF9C1805CCA822123C2C9), compiling. 
+[2022.09.06-09.42.19:252][383]LogMaterial: Display: Missing cached shadermap for atlas in PCD3D_SM5, Default, SM5 (DDC key hash: DDE5F1F9E71E9657FECC0C3B86E2178F5D035CC7), compiling. 
+[2022.09.06-09.42.19:325][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.09.06-09.42.20:492][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.09.06-09.42.22:640][383]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.06-09.42.24:500][383]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004034s (1.904368s overbudget)
+[2022.09.06-09.42.24:539][383]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House2/atlas
+[2022.09.06-09.42.24:539][383]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/atlasC2D7BCFE4EBB8C8DF80B679014E84598.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House2/atlas.uasset'
+[2022.09.06-09.42.24:592][383]AssetCheck: New page: Asset Save: atlas
+[2022.09.06-09.42.24:592][383]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/Assets/Housing/House2/atlas.atlas
+[2022.09.06-09.42.24:594][383]MaterialEditorStats: Base pass shader: 136 instructions
+[2022.09.06-09.42.24:594][383]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.06-09.42.24:594][383]MaterialEditorStats: Texture samplers: 7/16
+[2022.09.06-09.42.24:594][383]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.09.06-09.42.24:594][383]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.06-09.42.24:595][383]MaterialEditorStats: Shader Count: 16
+[2022.09.06-09.42.25:777][454]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ThirdPersonBP/Assets/Housing/House2/House2.House2
+[2022.09.06-09.42.25:789][454]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.06-09.42.26:146][454]LogViewport: Scene viewport resized to 881x498, mode Windowed.
+[2022.09.06-09.42.35:541][ 95]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Assets/Housing/House2/House2
+[2022.09.06-09.42.35:541][ 95]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/House2AE252B29488200F7442EE7984A2EADFE.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Assets/Housing/House2/House2.uasset'
+[2022.09.06-09.42.35:553][ 95]AssetCheck: New page: Asset Save: House2
+[2022.09.06-09.42.35:554][ 95]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonBP/Assets/Housing/House2/House2.House2
+[2022.09.06-09.42.37:143][207]LogSlate: Window 'House2' being destroyed
+[2022.09.06-09.42.37:150][207]LogSlate: Window 'House2' being destroyed
+[2022.09.06-09.42.37:161][207]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.09.06-09.42.37:162][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.42.37:218][207]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2022.09.06-09.42.37:218][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.06-09.43.07:052][ 11]LogEditorTransaction: Undo Edit Static Mesh
+[2022.09.06-09.43.13:909][657]BlueprintLog: New page: Compile BP_FloorTile
+[2022.09.06-09.43.14:169][657]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.09.06-09.43.14:622][672]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile
+[2022.09.06-09.43.14:622][672]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile5B1E5B53467347CD9E4C8F8A08A080DA.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile.uasset'
+[2022.09.06-09.43.14:638][672]AssetCheck: New page: Asset Save: BP_FloorTile
+[2022.09.06-09.43.14:638][672]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile.BP_FloorTile
