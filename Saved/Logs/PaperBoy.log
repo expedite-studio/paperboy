@@ -7597,3 +7597,336 @@ BP_FloorTile_C.BndEvt__BP_FloorTile_Box_K2Node_ComponentBoundEvent_1_ComponentBe
 [2022.09.26-09.38.48:737][715]LogViewport: Scene viewport resized to 1164x550, mode Windowed.
 [2022.09.26-09.38.48:816][716]LogViewport: Scene viewport resized to 1088x502, mode Windowed.
 [2022.09.26-09.38.50:799][820]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-BNHJHBE
+[2022.09.26-09.44.38:435][904]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.09.26-09.44.38:446][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.26-09.44.38:446][904]PIE: New page: PIE session: PrototypeMap_P (Sep 26, 2022, 7:44:38 PM)
+[2022.09.26-09.44.38:469][904]LogPlayLevel: Creating play world package: /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.09.26-09.44.38:472][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003035s)
+[2022.09.26-09.44.38:472][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PersistentLevel/PrototypeMap_P.PrototypeMap_P to /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P (0.003193s)
+[2022.09.26-09.44.38:472][904]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.09.26-09.44.38:472][904]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-09.44.38:473][904]LogAIModule: Creating AISystem for world PrototypeMap_P
+[2022.09.26-09.44.38:473][904]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2022.09.26-09.44.38:580][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.09.26-09.44.38:584][904]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.09.26-09.44.38:584][904]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.26-09.44.38:584][904]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.26-09.44.38:585][904]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.26-09.44.38:585][904]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.26-09.44.38:585][904]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.26-09.44.38:587][904]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.09.26-09.44.38:627][904]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.09.26-09.44.38:627][904]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.26-09.44.38:627][904]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.26-09.44.38:627][904]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.26-09.44.38:627][904]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2022.09.26-09.44.38:627][904]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2022.09.26-09.44.38:629][904]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2022.09.26-09.44.38:629][904]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2022.09.26-09.44.38:629][904]LogInit: FAudioDevice initialized.
+[2022.09.26-09.44.38:629][904]LogAudio: Display: Audio Device (ID: 67) registered with world 'PrototypeMap_P'.
+[2022.09.26-09.44.38:639][904]LogLoad: Game class is 'P_GameMode_C'
+[2022.09.26-09.44.38:643][904]LogWorld: Bringing World /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P up for play (max tick rate 0) at 2022.09.26-14.44.38
+[2022.09.26-09.44.38:643][904]LogWorld: Bringing up level for play took: 0.000372
+[2022.09.26-09.44.38:645][904]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2022.09.26-09.44.38:648][904]LogLevel: ActivateLevel /Game/UEDPIE_0_PrototypeMap 1 1 0
+[2022.09.26-09.44.38:648][904]PIE: Server logged in
+[2022.09.26-09.44.38:649][904]PIE: Play in editor total start time 0.202 seconds.
+[2022.09.26-09.44.38:760][904]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.17 ms
+[2022.09.26-09.44.38:811][905]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 31.60 ms
+[2022.09.26-09.44.38:857][906]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 33.17 ms
+[2022.09.26-09.44.39:115][907]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 26.48 ms
+[2022.09.26-09.44.39:162][908]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 34.49 ms
+[2022.09.26-09.44.39:225][909]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 48.03 ms
+[2022.09.26-09.44.39:260][910]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.63 ms
+[2022.09.26-09.44.39:297][911]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 26.44 ms
+[2022.09.26-09.44.39:330][912]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.73 ms
+[2022.09.26-09.44.39:377][913]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 35.88 ms
+[2022.09.26-09.44.39:415][914]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.76 ms
+[2022.09.26-09.44.39:449][915]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.33 ms
+[2022.09.26-09.44.39:486][916]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.88 ms
+[2022.09.26-09.44.39:520][917]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.75 ms
+[2022.09.26-09.44.39:555][918]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.79 ms
+[2022.09.26-09.44.39:594][919]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.92 ms
+[2022.09.26-09.44.39:632][920]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 26.42 ms
+[2022.09.26-09.44.39:667][921]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 25.43 ms
+[2022.09.26-09.44.39:701][922]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.99 ms
+[2022.09.26-09.44.40:287][923]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 573.52 ms
+[2022.09.26-09.44.40:883][924]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 567.95 ms
+[2022.09.26-09.44.40:925][926]Cmd: LevelEditor.ToggleImmersive
+[2022.09.26-09.44.40:977][926]LogViewport: Scene viewport resized to 1696x895, mode Windowed.
+[2022.09.26-09.44.41:176][927]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2022.09.26-09.45.17:335][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] Destroying_FT2
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] News
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] Blovker
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] Spline
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] News
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] News
+[2022.09.26-09.45.17:336][733]LogBlueprintUserMessages: [BP_FloorTile_3_C_1] News
+[2022.09.26-09.45.33:003][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] Destroying_FT1
+[2022.09.26-09.45.33:003][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] News
+[2022.09.26-09.45.33:003][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] Blocker
+[2022.09.26-09.45.33:003][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] Spline
+[2022.09.26-09.45.33:003][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] News
+[2022.09.26-09.45.33:004][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] News
+[2022.09.26-09.45.33:004][ 70]LogBlueprintUserMessages: [BP_FloorTile_C_1] News
+[2022.09.26-09.45.46:640][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-09.45.46:640][360]LogWorld: BeginTearingDown for /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.09.26-09.45.46:651][360]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.45.46:651][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.45.46:727][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.26-09.45.46:738][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.45.46:827][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.26-09.45.46:827][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.09.26-09.45.46:828][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.09.26-09.45.46:845][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.09.26-09.45.46:892][361]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2022.09.26-09.45.46:986][361]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.09.26-09.45.47:941][375]LogViewport: Scene viewport resized to 1471x749, mode Windowed.
+[2022.09.26-09.45.48:005][376]LogViewport: Scene viewport resized to 1151x542, mode Windowed.
+[2022.09.26-09.45.48:084][377]LogViewport: Scene viewport resized to 1088x502, mode Windowed.
+[2022.09.26-09.46.44:506][708]BlueprintLog: New page: Compile BP_NewspaperDispenser_Second
+[2022.09.26-09.46.44:783][708]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.09.26-09.46.45:487][740]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_Second
+[2022.09.26-09.46.45:487][740]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_NewspaperDispenser_SecondD0F4F36C412F170CD21FB1B6BA6DC826.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_Second.uasset'
+[2022.09.26-09.46.45:504][740]AssetCheck: New page: Asset Save: BP_NewspaperDispenser_Second
+[2022.09.26-09.46.45:504][740]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_Second.BP_NewspaperDispenser_Second
+[2022.09.26-09.46.52:134][ 85]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_First.BP_NewspaperDispenser_First
+[2022.09.26-09.46.52:134][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.26-09.46.58:549][500]LogViewport: Scene viewport resized to 1194x693, mode Windowed.
+[2022.09.26-09.47.03:935][812]BlueprintLog: New page: Compile BP_NewspaperDispenser_First
+[2022.09.26-09.47.04:160][812]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2022.09.26-09.47.08:111][902]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2022.09.26-09.47.10:442][902]LogSlate: Window 'Save Content' being destroyed
+[2022.09.26-09.47.10:529][902]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/BP_Blocker_First
+[2022.09.26-09.47.10:529][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Blocker_First9FEAAB6A4BE404F8E2985A8D76F650A2.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/BP_Blocker_First.uasset'
+[2022.09.26-09.47.10:699][902]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile
+[2022.09.26-09.47.10:699][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTileFCDC1F6A4E7F138A46D47FA8343B3AC7.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile.uasset'
+[2022.09.26-09.47.10:825][902]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2
+[2022.09.26-09.47.10:826][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile_24A78DEAA419259040687699B92B6E2F9.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2.uasset'
+[2022.09.26-09.47.10:972][902]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3
+[2022.09.26-09.47.10:973][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile_3507A296041CE2346692DCEB529C833DC.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3.uasset'
+[2022.09.26-09.47.11:023][902]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_First
+[2022.09.26-09.47.11:024][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_NewspaperDispenser_First4D0243C044E6AC2930A84EBDBE0B3EE6.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_First.uasset'
+[2022.09.26-09.47.11:025][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PrototypeMap" FILE="../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PrototypeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.26-09.47.11:118][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.09.26-09.47.11:338][902]LogSavePackage: Moving output files for package: /Game/PrototypeMap
+[2022.09.26-09.47.11:338][902]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/PrototypeMap3D4328E34A6F0E4D8CA411B5C5D90AD3.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PrototypeMap.umap'
+[2022.09.26-09.47.11:346][902]LogFileHelpers: No new changes to save!
+[2022.09.26-09.47.11:346][902]LogFileHelpers: Saving map 'PrototypeMap' took 0.322
+[2022.09.26-09.47.11:360][902]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.26-09.47.11:360][902]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile.BP_FloorTile
+[2022.09.26-09.47.11:361][902]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/BP_Blocker_First.BP_Blocker_First
+[2022.09.26-09.47.11:361][902]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/BP_NewspaperDispenser_First.BP_NewspaperDispenser_First
+[2022.09.26-09.47.11:361][902]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2.BP_FloorTile_2
+[2022.09.26-09.47.11:361][902]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3.BP_FloorTile_3
+[2022.09.26-09.47.11:361][902]LogContentValidation: Display: Validating World /Game/PrototypeMap.PrototypeMap
+[2022.09.26-09.47.13:309][993]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.09.26-09.47.15:188][993]LogSlate: Window 'Save Content' being destroyed
+[2022.09.26-09.47.15:194][993]LogStall: Shutdown...
+[2022.09.26-09.47.15:202][993]LogStall: Shutdown complete.
+[2022.09.26-09.47.15:312][993]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.15:312][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.15:692][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.15:692][993]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.15:692][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.15:889][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.15:889][993]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.15:889][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.15:997][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.15:997][993]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.15:997][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.16:409][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.16:409][993]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.16:409][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.16:558][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.16:558][993]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.16:559][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.16:860][993]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.16:860][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.16:937][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.26-09.47.16:937][993]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.16:937][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.26-09.47.17:130][993]LogSlate: Window 'PaperBoy - Unreal Editor' being destroyed
+[2022.09.26-09.47.17:682][994]Cmd: QUIT_EDITOR
+[2022.09.26-09.47.17:683][994]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.09.26-09.47.17:710][994]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.09.26-09.47.17:710][994]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.09.26-09.47.17:710][994]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.09.26-09.47.18:010][994]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.09.26-09.47.18:011][994]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.09.26-09.47.18:011][994]LogAudio: Display: Audio Device unregistered from world 'PrototypeMap_P'.
+[2022.09.26-09.47.18:030][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.26-09.47.18:035][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.09.26-09.47.18:078][994]LogAudio: Display: Audio Device Manager Shutdown
+[2022.09.26-09.47.18:092][994]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.09.26-09.47.18:144][994]LogExit: Preparing to exit.
+[2022.09.26-09.47.18:435][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2022.09.26-09.47.18:566][994]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:566][994]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:572][994]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:573][994]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:573][994]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:573][994]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:573][994]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:574][994]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:574][994]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:574][994]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:574][994]LogPython: Display: Object '/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.18:574][994]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.09.26-09.47.19:396][994]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:405][994]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:412][994]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:419][994]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:426][994]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:434][994]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:441][994]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:450][994]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:457][994]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:466][994]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:473][994]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:480][994]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:489][994]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:497][994]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:503][994]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:512][994]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:519][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:519][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:519][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:519][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:519][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:520][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:520][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:520][994]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.09.26-09.47.19:526][994]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:532][994]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:538][994]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:576][994]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:577][994]LogWorld: UWorld::CleanupWorld for PrototypeMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:577][994]LogWorld: UWorld::CleanupWorld for LoadScreen, bSessionEnded=true, bCleanupResources=true
+[2022.09.26-09.47.19:749][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.19:753][994]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.09.26-09.47.19:827][994]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.09.26-09.47.19:839][994]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.09.26-09.47.19:993][994]LogExit: Editor shut down
+[2022.09.26-09.47.20:015][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:017][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:018][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:018][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:018][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:018][994]LogWorld: Warning: UWorld::FinishDestroy called after InitWorld without calling CleanupWorld first.
+[2022.09.26-09.47.20:023][994]LogExit: Transaction tracking system shut down
+[2022.09.26-09.47.21:919][994]LogExit: Object subsystem successfully closed.
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: ================================================
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.09.26-09.47.21:928][994]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.09.26-09.47.21:929][994]LogShaderCompilers: Display: ================================================
+[2022.09.26-09.47.22:051][994]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.09.26-09.47.23:114][994]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (938)
+[2022.09.26-09.47.23:114][994]LogModuleManager: Shutting down and abandoning module SequencerWidgets (936)
+[2022.09.26-09.47.23:115][994]LogModuleManager: Shutting down and abandoning module BlueprintGraph (934)
+[2022.09.26-09.47.23:115][994]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (932)
+[2022.09.26-09.47.23:115][994]LogModuleManager: Shutting down and abandoning module Voice (930)
+[2022.09.26-09.47.23:115][994]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (928)
+[2022.09.26-09.47.23:115][994]LogModuleManager: Shutting down and abandoning module SubobjectEditor (926)
+[2022.09.26-09.47.23:116][994]LogModuleManager: Shutting down and abandoning module SceneOutliner (924)
+[2022.09.26-09.47.23:116][994]LogModuleManager: Shutting down and abandoning module AddContentDialog (920)
+[2022.09.26-09.47.23:129][994]LogModuleManager: Shutting down and abandoning module WidgetCarousel (919)
+[2022.09.26-09.47.23:129][994]LogModuleManager: Shutting down and abandoning module StatusBar (916)
+[2022.09.26-09.47.23:129][994]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (914)
+[2022.09.26-09.47.23:153][994]LogModuleManager: Shutting down and abandoning module TimeManagement (912)
+[2022.09.26-09.47.23:153][994]LogModuleManager: Shutting down and abandoning module StatsViewer (910)
+[2022.09.26-09.47.23:189][994]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (908)
+[2022.09.26-09.47.23:190][994]LogModuleManager: Shutting down and abandoning module AutomationWorker (906)
+[2022.09.26-09.47.23:190][994]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (904)
+[2022.09.26-09.47.23:190][994]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (902)
+[2022.09.26-09.47.23:195][994]LogModuleManager: Shutting down and abandoning module TakeRecorder (901)
+[2022.09.26-09.47.23:195][994]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (898)
+[2022.09.26-09.47.23:196][994]LogModuleManager: Shutting down and abandoning module TakesCore (896)
+[2022.09.26-09.47.23:196][994]LogModuleManager: Shutting down and abandoning module GooglePADEditor (894)
+[2022.09.26-09.47.23:196][994]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (892)
+[2022.09.26-09.47.23:210][994]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (890)
+[2022.09.26-09.47.23:210][994]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (888)
+[2022.09.26-09.47.23:211][994]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (886)
+[2022.09.26-09.47.23:245][994]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (884)
+[2022.09.26-09.47.23:258][994]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (882)
+[2022.09.26-09.47.23:275][994]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (880)
+[2022.09.26-09.47.23:275][994]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (878)
+[2022.09.26-09.47.23:275][994]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (876)
+[2022.09.26-09.47.23:276][994]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (874)
+[2022.09.26-09.47.23:276][994]LogModuleManager: Shutting down and abandoning module WebMMedia (872)
+[2022.09.26-09.47.23:276][994]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (870)
+[2022.09.26-09.47.23:309][994]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (868)
+[2022.09.26-09.47.23:309][994]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (866)
+[2022.09.26-09.47.23:309][994]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (864)
+[2022.09.26-09.47.23:364][994]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (862)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module SequenceRecorder (861)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (858)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (856)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (854)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (852)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module CharacterAI (850)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module LiveLinkMultiUser (848)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module TextureAlignMode (846)
+[2022.09.26-09.47.23:381][994]LogModuleManager: Shutting down and abandoning module BspMode (844)
+[2022.09.26-09.47.23:388][994]LogModuleManager: Shutting down and abandoning module GeometryMode (842)
+[2022.09.26-09.47.23:397][994]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (840)
+[2022.09.26-09.47.23:403][994]LogModuleManager: Shutting down and abandoning module IKRigEditor (838)
+[2022.09.26-09.47.23:428][994]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (836)
+[2022.09.26-09.47.23:428][994]LogModuleManager: Shutting down and abandoning module ControlRigEditor (834)
+[2022.09.26-09.47.23:478][994]LogModuleManager: Shutting down and abandoning module AnimationEditor (833)
+[2022.09.26-09.47.23:501][994]LogModuleManager: Shutting down and abandoning module SmartSnapping (830)
+[2022.09.26-09.47.23:501][994]LogModuleManager: Shutting down and abandoning module SessionServices (828)
+[2022.09.26-09.47.23:501][994]LogModuleManager: Shutting down and abandoning module MeshPaint (826)
+[2022.09.26-09.47.23:515][994]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (824)
+[2022.09.26-09.47.23:525][994]LogModuleManager: Shutting down and abandoning module PlacementMode (823)
+[2022.09.26-09.47.23:525][994]LogModuleManager: Shutting down and abandoning module FoliageEdit (820)
+[2022.09.26-09.47.23:546][994]LogModuleManager: Shutting down and abandoning module LandscapeEditor (818)
+[2022.09.26-09.47.23:645][994]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (816)
+[2022.09.26-09.47.23:645][994]LogModuleManager: Shutting down and abandoning module ActorPickerMode (814)
+[2022.09.26-09.47.23:645][994]LogModuleManager: Shutting down and abandoning module ViewportSnapping (812)
+[2022.09.26-09.47.23:645][994]LogModuleManager: Shutting down and abandoning module EditorWidgets (810)
+[2022.09.26-09.47.23:659][994]LogModuleManager: Shutting down and abandoning module ViewportInteraction (808)
+[2022.09.26-09.47.23:659][994]LogModuleManager: Shutting down and abandoning module ClothPainter (806)
+[2022.09.26-09.47.23:675][994]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (805)
+[2022.09.26-09.47.23:702][994]LogModuleManager: Shutting down and abandoning module LogVisualizer (802)
+[2022.09.26-09.47.23:732][994]LogModuleManager: Shutting down and abandoning module IntroTutorials (800)
+[2022.09.26-09.47.23:757][994]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (798)
+[2022.09.26-09.47.23:771][994]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (796)
+[2022.09.26-09.47.23:771][994]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (795)
+[2022.09.26-09.47.23:798][994]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (793)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (790)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (788)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (786)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (784)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module CSVtoSVG (782)
+[2022.09.26-09.47.24:665][994]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (780)
+[2022.09.26-09.47.24:677][994]LogModuleManager: Shutting down and abandoning module EditorConfig (778)
+[2022.09.26-09.47.24:677][994]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (776)
+[2022.09.26-09.47.24:684][994]LogModuleManager: Shutting down and abandoning module EditorFramework (774)
+[2022.09.26-09.47.24:684][994]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (772)
+[2022.09.26-09.47.24:684][994]LogModuleManager: Shutting down and abandoning module TraceInsights (770)
+[2022.09.26-09.47.24:837][994]MemoryProfiler: Shutdown
+[2022.09.26-09.47.24:946][994]NetworkingProfiler: Shutdown
+[2022.09.26-09.47.24:946][994]LoadingProfiler: Shutdown
+[2022.09.26-09.47.25:103][994]TimingProfiler: Shutdown
+[2022.09.26-09.47.25:164][994]LogModuleManager: Shutting down and abandoning module TraceServices (769)
