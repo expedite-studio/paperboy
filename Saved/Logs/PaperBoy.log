@@ -14624,3 +14624,520 @@ Script Stack (0 frames):
 [2022.10.07-12.13.33:158][315]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/RunCharacterB6F7148748F4C2A9A88C4A9E3A621A85.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Characters/RunCharacter.uasset'
 [2022.10.07-12.13.33:182][315]AssetCheck: New page: Asset Save: RunCharacter
 [2022.10.07-12.13.33:182][315]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Characters/RunCharacter.RunCharacter
+[2022.10.07-12.19.17:573][576]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.07-12.19.17:588][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.07-12.19.17:588][576]PIE: New page: PIE session: PrototypeMap_P (Oct 7, 2022, 10:19:17 PM)
+[2022.10.07-12.19.17:612][576]LogPlayLevel: Creating play world package: /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.19.17:614][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001809s)
+[2022.10.07-12.19.17:614][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PersistentLevel/PrototypeMap_P.PrototypeMap_P to /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P (0.001922s)
+[2022.10.07-12.19.17:614][576]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.07-12.19.17:615][576]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.07-12.19.17:615][576]LogAIModule: Creating AISystem for world PrototypeMap_P
+[2022.10.07-12.19.17:615][576]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2022.10.07-12.19.17:762][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2022.10.07-12.19.17:767][576]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.07-12.19.17:767][576]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.07-12.19.17:768][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.07-12.19.17:768][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.07-12.19.17:768][576]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.07-12.19.17:768][576]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.07-12.19.17:768][576]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.07-12.19.17:770][576]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.07-12.19.17:809][576]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.10.07-12.19.17:809][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.07-12.19.17:809][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.07-12.19.17:809][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.07-12.19.17:810][576]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2022.10.07-12.19.17:810][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2022.10.07-12.19.17:812][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2022.10.07-12.19.17:812][576]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2022.10.07-12.19.17:812][576]LogInit: FAudioDevice initialized.
+[2022.10.07-12.19.17:812][576]LogAudio: Display: Audio Device (ID: 65) registered with world 'PrototypeMap_P'.
+[2022.10.07-12.19.17:827][576]LogLoad: Game class is 'P_GameMode_C'
+[2022.10.07-12.19.17:830][576]LogWorld: Bringing World /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P up for play (max tick rate 0) at 2022.10.07-17.19.17
+[2022.10.07-12.19.17:831][576]LogWorld: Bringing up level for play took: 0.000383
+[2022.10.07-12.19.17:833][576]LogOnline: OSS: Created online subsystem instance for: :Context_140
+[2022.10.07-12.19.17:834][576]LogLevel: ActivateLevel /Game/UEDPIE_0_PrototypeMap 1 1 0
+[2022.10.07-12.19.17:834][576]PIE: Server logged in
+[2022.10.07-12.19.17:835][576]PIE: Play in editor total start time 0.248 seconds.
+[2022.10.07-12.19.17:959][576]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.34 ms
+[2022.10.07-12.19.18:012][577]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.88 ms
+[2022.10.07-12.19.18:051][578]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 27.98 ms
+[2022.10.07-12.19.18:088][579]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.01 ms
+[2022.10.07-12.19.18:126][580]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 28.79 ms
+[2022.10.07-12.19.18:159][581]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.62 ms
+[2022.10.07-12.19.18:193][582]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.32 ms
+[2022.10.07-12.19.18:238][583]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 27.22 ms
+[2022.10.07-12.19.18:274][584]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.64 ms
+[2022.10.07-12.19.18:308][585]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.72 ms
+[2022.10.07-12.19.18:343][586]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.59 ms
+[2022.10.07-12.19.18:398][587]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2022.10.07-12.19.18:398][587]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 36.41 ms
+[2022.10.07-12.19.18:435][588]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.08 ms
+[2022.10.07-12.19.18:467][589]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.78 ms
+[2022.10.07-12.19.18:507][590]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 29.37 ms
+[2022.10.07-12.19.18:540][591]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.57 ms
+[2022.10.07-12.19.18:577][592]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.17 ms
+[2022.10.07-12.19.18:618][593]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 25.90 ms
+[2022.10.07-12.19.18:651][594]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 25.39 ms
+[2022.10.07-12.19.19:270][597]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 574.07 ms
+[2022.10.07-12.19.19:277][598]Cmd: LevelEditor.ToggleImmersive
+[2022.10.07-12.19.19:829][598]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 520.38 ms
+[2022.10.07-12.19.19:842][598]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2022.10.07-12.19.19:964][598]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 64.37 ms
+[2022.10.07-12.19.20:611][623]Cmd: LevelEditor.ToggleImmersive
+[2022.10.07-12.19.20:669][623]LogViewport: Scene viewport resized to 1361x762, mode Windowed.
+[2022.10.07-12.19.20:788][624]LogViewport: Scene viewport resized to 1038x602, mode Windowed.
+[2022.10.07-12.19.20:878][625]LogViewport: Scene viewport resized to 1035x600, mode Windowed.
+[2022.10.07-12.19.21:234][637]Cmd: LevelEditor.ToggleImmersive
+[2022.10.07-12.19.21:268][637]LogViewport: Scene viewport resized to 1522x842, mode Windowed.
+[2022.10.07-12.19.21:366][638]LogViewport: Scene viewport resized to 1917x1039, mode Windowed.
+[2022.10.07-12.19.21:470][639]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2022.10.07-12.19.21:602][642]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2022.10.07-12.19.27:922][863]Cmd: DisableAll
+[2022.10.07-12.19.27:923][863]Command not recognized: DisableAll
+[2022.10.07-12.20.02:000][115]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2022.10.07-12.20.12:483][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.20.12:483][516]LogWorld: BeginTearingDown for /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.20.12:493][516]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-12.20.12:493][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.20.12:526][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.07-12.20.12:538][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.20.12:664][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.20.12:664][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2022.10.07-12.20.12:667][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2022.10.07-12.20.12:707][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2022.10.07-12.20.12:753][517]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2022.10.07-12.20.12:888][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2022.10.07-12.20.14:067][621]LogViewport: Scene viewport resized to 1672x917, mode Windowed.
+[2022.10.07-12.20.14:123][622]LogViewport: Scene viewport resized to 1149x657, mode Windowed.
+[2022.10.07-12.20.14:181][623]LogViewport: Scene viewport resized to 1044x604, mode Windowed.
+[2022.10.07-12.20.14:238][624]LogViewport: Scene viewport resized to 1035x600, mode Windowed.
+[2022.10.07-12.20.38:667][720]LogViewport: Scene viewport resized to 1194x693, mode Windowed.
+[2022.10.07-12.20.54:602][694]BlueprintLog: New page: Compile BP_FloorTile_3
+[2022.10.07-12.20.55:515][694]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2022.10.07-12.20.59:265][757]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3
+[2022.10.07-12.20.59:265][757]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile_33EDE3A1E4A1A07246DB0918C268712A9.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3.uasset'
+[2022.10.07-12.20.59:285][757]AssetCheck: New page: Asset Save: BP_FloorTile_3
+[2022.10.07-12.20.59:285][757]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_3.BP_FloorTile_3
+[2022.10.07-12.21.04:445][165]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-12.21.04:445][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.21.07:985][413]LogViewport: Scene viewport resized to 1194x693, mode Windowed.
+[2022.10.07-12.21.16:398][124]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_170.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.16:430][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_181.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.16:496][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_133.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.17:415][215]BlueprintLog: New page: Compile BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.21.17:677][215]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2022.10.07-12.21.17:773][215]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_172.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.17:805][215]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_183.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.17:873][215]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_135.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.17:954][215]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_174.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.17:985][215]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_185.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.18:051][215]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_137.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.21.18:677][264]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.21.18:677][264]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Spline_For_CrossingCarsSecond3C2D1FEB4726210770715A84C252B735.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond.uasset'
+[2022.10.07-12.21.18:697][264]AssetCheck: New page: Asset Save: BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.21.18:697][264]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond.BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.21.21:748][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-12.21.21:748][549]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-12.21.21:748][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.21.29:897][224]BlueprintLog: New page: Compile BP_Spline_For_Cars_First
+[2022.10.07-12.21.30:136][224]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2022.10.07-12.21.31:694][266]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First
+[2022.10.07-12.21.31:694][266]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Spline_For_Cars_FirstBA84073141E3EC6E4BC7F68F8177DCC1.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First.uasset'
+[2022.10.07-12.21.31:714][266]AssetCheck: New page: Asset Save: BP_Spline_For_Cars_First
+[2022.10.07-12.21.31:714][266]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First.BP_Spline_For_Cars_First
+[2022.10.07-12.22.38:851][639]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First
+[2022.10.07-12.22.38:852][639]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Spline_For_Cars_First7DEBB3204C66149C55E4B5B8BF9FEF88.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First.uasset'
+[2022.10.07-12.22.38:874][639]AssetCheck: New page: Asset Save: BP_Spline_For_Cars_First
+[2022.10.07-12.22.38:875][639]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_Cars_First.BP_Spline_For_Cars_First
+[2022.10.07-12.22.43:751][951]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.07-12.22.43:763][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.07-12.22.43:763][951]PIE: New page: PIE session: PrototypeMap_P (Oct 7, 2022, 10:22:43 PM)
+[2022.10.07-12.22.43:763][951]LogPlayLevel: Creating play world package: /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.22.43:766][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002487s)
+[2022.10.07-12.22.43:766][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PersistentLevel/PrototypeMap_P.PrototypeMap_P to /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P (0.002601s)
+[2022.10.07-12.22.43:766][951]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.07-12.22.43:766][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.07-12.22.43:767][951]LogAIModule: Creating AISystem for world PrototypeMap_P
+[2022.10.07-12.22.43:767][951]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2022.10.07-12.22.43:899][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2022.10.07-12.22.43:914][951]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2022.10.07-12.22.43:914][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.07-12.22.43:915][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.07-12.22.43:915][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.07-12.22.43:915][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.07-12.22.43:915][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.07-12.22.43:915][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.07-12.22.43:917][951]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.07-12.22.43:954][951]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.10.07-12.22.43:955][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.07-12.22.43:955][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.07-12.22.43:955][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.07-12.22.43:957][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2022.10.07-12.22.43:957][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2022.10.07-12.22.43:959][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2022.10.07-12.22.43:959][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2022.10.07-12.22.43:959][951]LogInit: FAudioDevice initialized.
+[2022.10.07-12.22.43:959][951]LogAudio: Display: Audio Device (ID: 66) registered with world 'PrototypeMap_P'.
+[2022.10.07-12.22.43:971][951]LogLoad: Game class is 'P_GameMode_C'
+[2022.10.07-12.22.43:974][951]LogWorld: Bringing World /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P up for play (max tick rate 0) at 2022.10.07-17.22.43
+[2022.10.07-12.22.43:974][951]LogWorld: Bringing up level for play took: 0.000364
+[2022.10.07-12.22.43:977][951]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2022.10.07-12.22.43:978][951]LogLevel: ActivateLevel /Game/UEDPIE_0_PrototypeMap 1 1 0
+[2022.10.07-12.22.43:978][951]PIE: Server logged in
+[2022.10.07-12.22.43:979][951]PIE: Play in editor total start time 0.217 seconds.
+[2022.10.07-12.22.44:112][951]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.34 ms
+[2022.10.07-12.22.44:149][952]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 24.69 ms
+[2022.10.07-12.22.44:182][953]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.55 ms
+[2022.10.07-12.22.44:236][954]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 44.06 ms
+[2022.10.07-12.22.44:269][955]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.95 ms
+[2022.10.07-12.22.44:302][956]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.49 ms
+[2022.10.07-12.22.44:343][957]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 29.60 ms
+[2022.10.07-12.22.44:385][958]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 33.00 ms
+[2022.10.07-12.22.44:472][961]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 47.19 ms
+[2022.10.07-12.22.44:533][962]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 46.33 ms
+[2022.10.07-12.22.44:587][963]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 45.41 ms
+[2022.10.07-12.22.44:621][964]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.67 ms
+[2022.10.07-12.22.44:683][966]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.27 ms
+[2022.10.07-12.22.44:714][967]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.89 ms
+[2022.10.07-12.22.44:746][968]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.97 ms
+[2022.10.07-12.22.45:290][969]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 530.55 ms
+[2022.10.07-12.22.45:299][970]Cmd: LevelEditor.ToggleImmersive
+[2022.10.07-12.22.45:410][970]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 75.37 ms
+[2022.10.07-12.22.45:420][970]LogViewport: Scene viewport resized to 1915x1037, mode Windowed.
+[2022.10.07-12.22.46:046][970]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 558.72 ms
+[2022.10.07-12.22.46:086][971]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2022.10.07-12.22.46:388][981]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2022.10.07-12.22.47:596][ 26]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2022.10.07-12.22.53:963][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.22.53:963][250]LogWorld: BeginTearingDown for /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.22.53:973][250]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-12.22.53:974][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.22.54:007][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.07-12.22.54:021][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.22.54:125][250]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.07-12.22.54:134][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2022.10.07-12.22.54:136][250]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66
+[2022.10.07-12.22.54:140][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.22.54:160][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2022.10.07-12.22.54:192][251]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2022.10.07-12.22.54:310][251]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2022.10.07-12.22.55:105][279]LogViewport: Scene viewport resized to 1463x813, mode Windowed.
+[2022.10.07-12.22.55:167][280]LogViewport: Scene viewport resized to 1073x619, mode Windowed.
+[2022.10.07-12.22.55:275][281]LogViewport: Scene viewport resized to 1035x600, mode Windowed.
+[2022.10.07-12.22.58:166][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_189.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.22.58:236][479]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_178.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.22.58:302][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_141.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.22.59:611][597]BlueprintLog: New page: Compile BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.22.59:795][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2022.10.07-12.22.59:836][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_191.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.22.59:906][597]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_180.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.22.59:976][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_143.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.23.00:014][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_193.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.23.00:083][597]LogActorComponent: RegisterComponentWithWorld: (/Game/PrototypeMap.PrototypeMap:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_182.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.23.00:150][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_70:PersistentLevel.DESTROYED_BP_Spline_For_CrossingCarsSecond_C_CHILDACTOR_145.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.10.07-12.23.00:796][642]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.23.00:796][642]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Spline_For_CrossingCarsSecondB6F8EF374537E7C18201529B80D33D48.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond.uasset'
+[2022.10.07-12.23.00:816][642]AssetCheck: New page: Asset Save: BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.23.00:816][642]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsSecond.BP_Spline_For_CrossingCarsSecond
+[2022.10.07-12.23.02:891][807]BlueprintLog: New page: Compile BP_Spline_For_Cars_First
+[2022.10.07-12.23.03:122][807]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2022.10.07-12.23.05:081][855]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.07-12.23.05:091][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.07-12.23.05:092][855]PIE: New page: PIE session: PrototypeMap_P (Oct 7, 2022, 10:23:05 PM)
+[2022.10.07-12.23.05:113][855]LogPlayLevel: Creating play world package: /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.23.05:115][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002110s)
+[2022.10.07-12.23.05:115][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PersistentLevel/PrototypeMap_P.PrototypeMap_P to /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P (0.002233s)
+[2022.10.07-12.23.05:115][855]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.07-12.23.05:115][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.07-12.23.05:115][855]LogAIModule: Creating AISystem for world PrototypeMap_P
+[2022.10.07-12.23.05:116][855]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2022.10.07-12.23.05:239][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2022.10.07-12.23.05:252][855]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.07-12.23.05:252][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.07-12.23.05:252][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.07-12.23.05:252][855]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.07-12.23.05:252][855]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.07-12.23.05:252][855]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.07-12.23.05:254][855]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.07-12.23.05:289][855]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.10.07-12.23.05:290][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.07-12.23.05:290][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.07-12.23.05:290][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.07-12.23.05:290][855]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2022.10.07-12.23.05:290][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2022.10.07-12.23.05:292][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2022.10.07-12.23.05:292][855]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2022.10.07-12.23.05:292][855]LogInit: FAudioDevice initialized.
+[2022.10.07-12.23.05:292][855]LogAudio: Display: Audio Device (ID: 67) registered with world 'PrototypeMap_P'.
+[2022.10.07-12.23.05:308][855]LogLoad: Game class is 'P_GameMode_C'
+[2022.10.07-12.23.05:311][855]LogWorld: Bringing World /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P.PrototypeMap_P up for play (max tick rate 0) at 2022.10.07-17.23.05
+[2022.10.07-12.23.05:312][855]LogWorld: Bringing up level for play took: 0.000430
+[2022.10.07-12.23.05:314][855]LogOnline: OSS: Created online subsystem instance for: :Context_142
+[2022.10.07-12.23.05:315][855]LogLevel: ActivateLevel /Game/UEDPIE_0_PrototypeMap 1 1 0
+[2022.10.07-12.23.05:315][855]PIE: Server logged in
+[2022.10.07-12.23.05:316][855]PIE: Play in editor total start time 0.225 seconds.
+[2022.10.07-12.23.05:448][855]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 21.59 ms
+[2022.10.07-12.23.05:485][856]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 25.29 ms
+[2022.10.07-12.23.05:517][857]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.71 ms
+[2022.10.07-12.23.05:551][858]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.26 ms
+[2022.10.07-12.23.05:583][859]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.89 ms
+[2022.10.07-12.23.05:615][860]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.89 ms
+[2022.10.07-12.23.05:654][861]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 29.91 ms
+[2022.10.07-12.23.05:694][862]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 29.87 ms
+[2022.10.07-12.23.05:725][863]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 22.40 ms
+[2022.10.07-12.23.05:835][867]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 46.22 ms
+[2022.10.07-12.23.05:889][868]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 44.47 ms
+[2022.10.07-12.23.05:941][869]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 42.43 ms
+[2022.10.07-12.23.05:987][870]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 33.74 ms
+[2022.10.07-12.23.06:019][871]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.87 ms
+[2022.10.07-12.23.06:059][872]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 26.76 ms
+[2022.10.07-12.23.06:093][873]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 23.95 ms
+[2022.10.07-12.23.06:649][875]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 527.18 ms
+[2022.10.07-12.23.06:737][876]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 64.54 ms
+[2022.10.07-12.23.07:329][877]LogStreaming: Display: UWorld::AddToWorld: updating components for /Game/UEDPIE_0_PrototypeMap took (less than) 577.24 ms
+[2022.10.07-12.23.07:417][881]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2022.10.07-12.23.09:351][955]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2022.10.07-12.23.11:421][ 40]Cmd: LevelEditor.ToggleImmersive
+[2022.10.07-12.23.11:466][ 40]LogViewport: Scene viewport resized to 1595x878, mode Windowed.
+[2022.10.07-12.23.11:563][ 41]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2022.10.07-12.23.16:868][219]Cmd: DisableAllScreenMessages
+[2022.10.07-12.23.16:868][219]LogEngine: Onscreen warnings/messages are now DISABLED
+[2022.10.07-12.24.08:221][118]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2022.10.07-12.24.09:673][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.24.09:673][165]LogWorld: BeginTearingDown for /Game/PersistentLevel/UEDPIE_0_PrototypeMap_P
+[2022.10.07-12.24.09:685][165]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-12.24.09:685][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.24.09:749][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.07-12.24.09:762][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-12.24.09:866][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.07-12.24.09:872][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.10.07-12.24.09:874][165]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67
+[2022.10.07-12.24.09:879][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.07-12.24.09:913][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.10.07-12.24.09:960][166]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2022.10.07-12.24.10:084][166]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2022.10.07-12.24.44:246][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.10.07-12.24.44:251][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PrototypeMap" FILE="../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/PrototypeMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.10.07-12.24.44:583][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PrototypeMap_Auto2
+[2022.10.07-12.24.44:583][753]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/PrototypeMap_Auto20779898C43E97C6BB65B338956075CE9.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/PrototypeMap_Auto2.umap'
+[2022.10.07-12.24.44:590][753]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PersistentLevel/PrototypeMap_P' took 0.458
+[2022.10.07-12.24.44:590][753]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.458
+[2022.10.07-12.24.44:592][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PersistentLevel/P_GameMode] ([2] browsable assets)...
+[2022.10.07-12.24.44:592][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/PersistentLevel/P_GameMode]
+[2022.10.07-12.24.44:607][753]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PersistentLevel/P_GameMode_Auto2
+[2022.10.07-12.24.44:623][753]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/P_GameMode_Auto2B661DE9149954BB4A3F1F99B62E4C01D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/Autosaves/Game/PersistentLevel/P_GameMode_Auto2.uasset'
+[2022.10.07-12.24.44:623][753]LogFileHelpers: Auto-saving content packages took 0.032
+[2022.10.07-12.32.55:421][218]LogDerivedDataCache: C:/Users/SSD 120/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.419 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.07-13.32.55:258][946]LogDerivedDataCache: C:/Users/SSD 120/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.478 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.07-14.22.53:154][892]LogWindowsDesktop: Alt-F4 pressed!
+[2022.10.07-14.22.53:289][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.10.07-14.22.53:387][892]LogWindowsDesktop: Alt-F4 pressed!
+[2022.10.07-14.22.53:387][892]LogSlate: Window 'Save Content' being destroyed
+[2022.10.07-14.23.01:789][206]LogWindowsDesktop: Alt-F4 pressed!
+[2022.10.07-14.23.01:894][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.10.07-14.23.03:118][206]LogSlate: Window 'Save Content' being destroyed
+[2022.10.07-14.23.03:178][206]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Characters/BP_Boy_LoadingScreen
+[2022.10.07-14.23.03:179][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Boy_LoadingScreen9A5B6E3D4E5AB67C11B3EA8F622EBF9D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Characters/BP_Boy_LoadingScreen.uasset'
+[2022.10.07-14.23.03:270][206]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2
+[2022.10.07-14.23.03:270][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile_2B7771839493E90BFB63A9C89F1736F2D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2.uasset'
+[2022.10.07-14.23.03:412][206]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/FloorStages/Duplicates1/BP_FloorTile_4
+[2022.10.07-14.23.03:412][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_FloorTile_46000405243465897ABCAF4BC9C290E99.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/FloorStages/Duplicates1/BP_FloorTile_4.uasset'
+[2022.10.07-14.23.03:424][206]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsFirst
+[2022.10.07-14.23.03:424][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/BP_Spline_For_CrossingCarsFirst9961674440D576CFBDB9F0BE2DCA940D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsFirst.uasset'
+[2022.10.07-14.23.03:426][206]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/Sounds/ThrowEmpty/duct-tape-1-86753
+[2022.10.07-14.23.03:426][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/duct-tape-1-867537309A8E5435209654142C0B437C7B68C.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/Sounds/ThrowEmpty/duct-tape-1-86753.uasset'
+[2022.10.07-14.23.03:426][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PersistentLevel/P_GameMode" FILE="../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PersistentLevel/P_GameMode.uasset" SILENT=true
+[2022.10.07-14.23.03:443][206]LogSavePackage: Moving output files for package: /Game/PersistentLevel/P_GameMode
+[2022.10.07-14.23.03:443][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/P_GameMode25076DFE4F5DC35149D5CD84614A75D0.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PersistentLevel/P_GameMode.uasset'
+[2022.10.07-14.23.03:445][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PrototypeMap" FILE="../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PrototypeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.07-14.23.03:545][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.10.07-14.23.03:885][206]LogSavePackage: Moving output files for package: /Game/PrototypeMap
+[2022.10.07-14.23.03:885][206]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/PrototypeMapE0593EB04DD72B6CCC2174811DAEC651.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/PrototypeMap.umap'
+[2022.10.07-14.23.03:893][206]LogFileHelpers: No new changes to save!
+[2022.10.07-14.23.03:893][206]LogFileHelpers: Saving map 'PrototypeMap' took 0.449
+[2022.10.07-14.23.03:897][206]LogStall: Shutdown...
+[2022.10.07-14.23.03:905][206]LogStall: Shutdown complete.
+[2022.10.07-14.23.04:157][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.04:157][206]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.04:157][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.04:647][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.04:647][206]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.04:647][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.05:024][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.05:024][206]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.05:024][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.05:496][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.05:496][206]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.05:496][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.05:875][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.05:875][206]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.05:875][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.06:107][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.06:107][206]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.06:108][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.06:455][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.07-14.23.06:455][206]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.06:455][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.07-14.23.06:802][206]LogSlate: Window 'PaperBoy - Unreal Editor' being destroyed
+[2022.10.07-14.23.07:368][206]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating Blueprint /Game/PersistentLevel/P_GameMode.P_GameMode
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/BP_FloorTile_2.BP_FloorTile_2
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Utilities/Splines/BP_Spline_For_CrossingCarsFirst.BP_Spline_For_CrossingCarsFirst
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating World /Game/PrototypeMap.PrototypeMap
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Characters/BP_Boy_LoadingScreen.BP_Boy_LoadingScreen
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/FloorStages/Duplicates1/BP_FloorTile_4.BP_FloorTile_4
+[2022.10.07-14.23.07:368][206]LogContentValidation: Display: Validating SoundWave /Game/ThirdPersonBP/Sounds/ThrowEmpty/duct-tape-1-86753.duct-tape-1-86753
+[2022.10.07-14.23.07:370][207]Cmd: QUIT_EDITOR
+[2022.10.07-14.23.07:370][207]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.10.07-14.23.07:402][207]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.10.07-14.23.07:413][207]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.10.07-14.23.07:429][207]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.10.07-14.23.08:333][207]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.10.07-14.23.08:333][207]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.10.07-14.23.08:334][207]LogAudio: Display: Audio Device unregistered from world 'PrototypeMap_P'.
+[2022.10.07-14.23.08:334][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.10.07-14.23.08:343][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.10.07-14.23.08:407][207]LogAudio: Display: Audio Device Manager Shutdown
+[2022.10.07-14.23.08:495][207]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.10.07-14.23.08:540][207]LogExit: Preparing to exit.
+[2022.10.07-14.23.09:109][207]LogUObjectHash: Compacting FUObjectHashTables data took   7.08ms
+[2022.10.07-14.23.09:268][207]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:269][207]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:271][207]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.MoviePipelineExampleRuntimeExecutor' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.09:272][207]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2022.10.07-14.23.11:353][207]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:366][207]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:377][207]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:389][207]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:397][207]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:404][207]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:410][207]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:417][207]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:423][207]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:428][207]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:432][207]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:437][207]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:441][207]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:445][207]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:449][207]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:454][207]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:457][207]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:461][207]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:465][207]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:469][207]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:472][207]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:476][207]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:480][207]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:484][207]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:487][207]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:490][207]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:494][207]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:497][207]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:501][207]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:504][207]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:507][207]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:510][207]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:514][207]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:520][207]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:527][207]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:534][207]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:542][207]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:546][207]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:549][207]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:552][207]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:556][207]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:559][207]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:563][207]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:566][207]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:570][207]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:574][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:574][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:574][207]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:578][207]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:581][207]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:584][207]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:588][207]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:591][207]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:594][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:594][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:594][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:594][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:594][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:594][207]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:597][207]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:600][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:600][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:600][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:633][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:633][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:633][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:633][207]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.10.07-14.23.11:633][207]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:637][207]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:811][207]LogWorld: UWorld::CleanupWorld for PrototypeMap_P, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:811][207]LogWorld: UWorld::CleanupWorld for LoadScreen, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.11:811][207]LogWorld: UWorld::CleanupWorld for PrototypeMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.07-14.23.12:157][207]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.10.07-14.23.12:463][207]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.10.07-14.23.12:512][207]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.10.07-14.23.13:485][207]LogExit: Editor shut down
+[2022.10.07-14.23.13:489][207]LogExit: Transaction tracking system shut down
+[2022.10.07-14.23.18:845][207]LogExit: Object subsystem successfully closed.
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: ================================================
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.10.07-14.23.18:857][207]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.07-14.23.18:858][207]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.10.07-14.23.18:858][207]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.10.07-14.23.18:858][207]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.10.07-14.23.18:858][207]LogShaderCompilers: Display: ================================================
+[2022.10.07-14.23.18:882][207]LogShaderCompilers: Display: Shaders left to compile 0
