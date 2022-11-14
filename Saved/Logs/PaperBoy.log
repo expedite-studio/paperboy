@@ -884,3 +884,74 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.14-06.56.01:525][302]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
 [2022.11.14-06.56.29:019][631]LogViewport: Scene viewport resized to 1022x566, mode Windowed.
 [2022.11.14-07.05.50:707][302]LogViewport: Scene viewport resized to 1170x585, mode Windowed.
+[2022.11.14-07.29.25:950][424]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-BNHJHBE
+[2022.11.14-07.29.26:891][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.14-07.29.26:903][518]PIE: New page: PIE session: Main_Menu_Level (Nov 14, 2022, 5:29:26 PM)
+[2022.11.14-07.29.26:973][518]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.14-07.29.26:981][518]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.14-07.29.27:012][518]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Levels/UEDPIE_0_Main_Menu_Level
+[2022.11.14-07.29.27:070][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057795s)
+[2022.11.14-07.29.27:071][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Levels/Main_Menu_Level.Main_Menu_Level to /Game/ThirdPersonBP/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.070767s)
+[2022.11.14-07.29.27:071][518]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.14-07.29.27:071][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.14-07.29.27:072][518]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2022.11.14-07.29.27:073][518]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2022.11.14-07.29.27:194][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.11.14-07.29.27:196][518]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.14-07.29.27:196][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.14-07.29.27:196][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.14-07.29.27:197][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.14-07.29.27:197][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.14-07.29.27:197][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.14-07.29.27:199][518]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.14-07.29.27:238][518]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2022.11.14-07.29.27:239][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.14-07.29.27:239][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.14-07.29.27:240][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.14-07.29.27:241][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.14-07.29.27:241][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.11.14-07.29.27:243][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.14-07.29.27:243][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.14-07.29.27:243][518]LogInit: FAudioDevice initialized.
+[2022.11.14-07.29.27:243][518]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main_Menu_Level'.
+[2022.11.14-07.29.27:287][518]LogLoad: Game class is 'MainMenu_GameMode_C'
+[2022.11.14-07.29.27:287][518]LogWorld: Bringing World /Game/ThirdPersonBP/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2022.11.14-12.29.27
+[2022.11.14-07.29.27:287][518]LogWorld: Bringing up level for play took: 0.000415
+[2022.11.14-07.29.27:290][518]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2022.11.14-07.29.27:325][518]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.11.14-07.29.27:325][518]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2022.11.14-07.29.27:325][518]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.11.14-07.29.27:325][518]PIE: Server logged in
+[2022.11.14-07.29.27:327][518]PIE: Play in editor total start time 0.564 seconds.
+[2022.11.14-07.29.27:967][519]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'disco-street-andrey-rossi-main-version-14554-01-47'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2022.11.14-07.30.28:238][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.14-07.30.28:238][655]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Levels/UEDPIE_0_Main_Menu_Level
+[2022.11.14-07.30.28:238][655]LogWorld: UWorld::CleanupWorld for Main_Menu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.11.14-07.30.28:239][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-07.30.28:264][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.14-07.30.28:275][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.14-07.30.28:435][655]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.14-07.30.28:435][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.14-07.30.28:437][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.14-07.30.28:443][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.14-07.30.28:469][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2022.11.14-07.30.28:492][656]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.11.14-07.30.28:838][696]LogTurnkeySupport: Display: Adding device menu item for DESKTOP-BNHJHBE
+[2022.11.14-07.30.29:902][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.11.14-07.31.18:605][695]LogViewport: Scene viewport resized to 1022x566, mode Windowed.
+[2022.11.14-07.31.29:253][726]LogViewport: Scene viewport resized to 1170x585, mode Windowed.
+[2022.11.14-07.31.33:388][738]LogViewport: Scene viewport resized to 1022x566, mode Windowed.
+[2022.11.14-07.31.49:369][785]LogViewport: Scene viewport resized to 1170x585, mode Windowed.
+[2022.11.14-07.49.13:155][931]BlueprintLog: New page: Compile SettingMenu_Graphics_Options
+[2022.11.14-07.49.13:317][931]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2022.11.14-07.49.13:883][981]LogSavePackage: Moving output files for package: /Game/ThirdPersonBP/UMG/MainMenu/Menus/SettingsMenu/SettingMenu_Graphics_Options
+[2022.11.14-07.49.13:883][981]LogSavePackage: Moving '../../../../Expedite Design/Projects/PaperBoy/paperboy/Saved/SettingMenu_Graphics_OptionsF66224AF4EAD1022636DC4973283694D.tmp' to '../../../../Expedite Design/Projects/PaperBoy/paperboy/Content/ThirdPersonBP/UMG/MainMenu/Menus/SettingsMenu/SettingMenu_Graphics_Options.uasset'
+[2022.11.14-07.49.13:899][981]AssetCheck: New page: Asset Save: SettingMenu_Graphics_Options
+[2022.11.14-07.49.13:899][981]LogContentValidation: Display: Validating WidgetBlueprint /Game/ThirdPersonBP/UMG/MainMenu/Menus/SettingsMenu/SettingMenu_Graphics_Options.SettingMenu_Graphics_Options
+[2022.11.14-07.50.18:144][622]LogDerivedDataCache: C:/Users/SSD 120/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.764 and deleted 3 file(s) with total size 0 MiB.
